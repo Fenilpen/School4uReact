@@ -8,3 +8,13 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+// you can render with another method 
+// let rootElement = document.getElementById('root')
+// let root = createRoot(rootElement)
+
+// root.render(
+//   <StrictMode>
+//     <App />
+//   </StrictMode>
+// )
