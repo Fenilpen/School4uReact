@@ -10,3 +10,16 @@ function Components() {
     </div>
   )
 }
+
+
+function App() {
+
+  return (
+  <div>
+   <Components/>
+   <Components/>
+  </div>
+  )
+}
+
+export default App
