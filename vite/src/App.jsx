@@ -20,22 +20,25 @@ import './App.css'
 // }
 
 
-function Components() {
-  return (
-    <div>
-     <h1>hello this is component</h1>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, autem?</p>
-    </div>
-  )
-}
+// function Components() {
+//   return (
+//     <div>
+//      <h1>hello this is component</h1>
+//      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, autem?</p>
+//     </div>
+//   )
+// }
 
 
 function App() {
 
   return (
   <div>
-   <Components/>
-   <Components/>
+  {/*<Components/>
+   <Components/> */}
+   <Navi title="Navbaar 1" link="google.com" number={3} />
+   <Navi title="Navbaar 2" />
+   <Navi title="Navbaar 3"/>
   </div>
   )
 }
