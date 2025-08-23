@@ -10,6 +10,7 @@ const Navim = ({title,link,number}) => {
       <h1>{link}</h1>
       <h1>{number}</h1>
       <h1>{number}</h1>
+      <h1>{data}</h1>
     </div>
   )
 }
