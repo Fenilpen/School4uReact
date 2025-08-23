@@ -15,5 +15,11 @@ const Navim = ({title,link,number}) => {
   )
 }
 
+function Button({data}) {
+  return(
+    <button>{data}</button>
+  )
+}
+
 
 export default Navim
