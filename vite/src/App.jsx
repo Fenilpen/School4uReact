@@ -55,6 +55,9 @@ function App() {
   <div>
   <button onClick={increment}>increment</button>
    {count}
+
+{/* <Navi data={count} /> */}
+
   </div>
   )
 }
