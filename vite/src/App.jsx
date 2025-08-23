@@ -30,17 +30,35 @@ import './App.css'
 // }
 
 
+// function App() {
+
+//   return (
+//   <div>
+//   {/*<Components/>
+//    <Components/> */}
+//    <Navi title="Navbaar 1" link="google.com" number={3} />
+//    <Navi title="Navbaar 2" />
+//    <Navi title="Navbaar 3"/>
+//   </div>
+//   )
+// }
+
 function App() {
+
+  let [count,setCount] = useState(0);
+
+  function increment () {
+    setCount(count+1)    
+  }
 
   return (
   <div>
-  {/*<Components/>
-   <Components/> */}
-   <Navi title="Navbaar 1" link="google.com" number={3} />
-   <Navi title="Navbaar 2" />
-   <Navi title="Navbaar 3"/>
+  <button onClick={increment}>increment</button>
+   {count}
   </div>
   )
 }
+
+export default App
 
 export default App
