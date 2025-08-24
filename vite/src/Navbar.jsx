@@ -1,8 +1,8 @@
 import React from 'react'
 
 
-const Navim = ({title,link,number}) => {
-  // console.log(props);
+const Navim = ({title,link,number,data}) => {
+
   
   return (
     <div>
