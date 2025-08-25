@@ -11,7 +11,14 @@ function App() {
 
   return (
     <>
-     
+     <h1>Counter App</h1>
+     <p>Count : {count}</p>
+
+    <div className='buttons'>
+     <button onClick={increment}>➕ INCREMENT</button>
+     <button>➖ DECREMENT</button>
+     <button>🔄️ RESET</button>
+    </div>
     </>
   )
 }
