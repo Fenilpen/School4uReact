@@ -9,6 +9,16 @@ function App() {
   setCount(count)
   }
 
+  function decrement () {
+  count = count - 1
+  setCount(count)
+}
+
+function reset () {
+  count = count = 0
+  setCount(count)
+}
+
   return (
     <>
      <h1>Counter App</h1>
