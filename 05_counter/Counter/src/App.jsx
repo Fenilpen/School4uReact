@@ -26,8 +26,8 @@ function reset () {
 
     <div className='buttons'>
      <button onClick={increment}>➕ INCREMENT</button>
-     <button>➖ DECREMENT</button>
-     <button>🔄️ RESET</button>
+     <button onClick={decrement}>➖ DECREMENT</button>
+     <button onClick={reset}>🔄️ RESET</button>
     </div>
     </>
   )
