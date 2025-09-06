@@ -8,8 +8,12 @@ function sum (a,b) {
     return a + b
 }
 
+function sub (a,b) {
+    return a - b
+}
+
 // to export
-module.exports = {name,age,sum}
+// module.exports = {name,age,sum}
 
 
 // ES6 Modules (modern javascript)
@@ -18,3 +22,5 @@ module.exports = {name,age,sum}
 //     return a + b
 // }
 
+// adwance
+export {sum,sub}
