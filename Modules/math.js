@@ -23,4 +23,13 @@ function sub (a,b) {
 // }
 
 // adwance
-export {sum,sub}
+// export {sum,sub}
+
+
+// let obj = {
+//     name:"Ziyan",
+//     work: "Cartoon",
+//     age: "Kid"
+// }
+
+// export {obj}
