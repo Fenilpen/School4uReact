@@ -10,3 +10,7 @@
 // let result = sum(1,2) 
 // console.log(result);
 // console.log(name);
+
+
+// import funky from"./math.js"
+// console.log(funky(5,5))
