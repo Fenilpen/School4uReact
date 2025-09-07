@@ -14,3 +14,9 @@
 
 // import funky from"./math.js"
 // console.log(funky(5,5))
+
+import {sum,sub} from"./math.js"
+
+let result = sum(3,1)
+let result2 = sub(3,2)
+console.log(result,result2);
