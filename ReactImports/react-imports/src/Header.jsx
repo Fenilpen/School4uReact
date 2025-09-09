@@ -1,7 +1,7 @@
 function head () {
     
     return(
-        <h1>Its Header</h1>
+        <h1>Its Header for learning imports</h1>
     )
 }
 
