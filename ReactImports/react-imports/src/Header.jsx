@@ -5,3 +5,16 @@ function head () {
     )
 }
 
+
+export function Card () {
+    return(
+        <h1>it is Card</h1>
+    )
+}
+export function Card2 () {
+    return(
+        <h1>it is Card2</h1>
+    )
+}
+
+export default head
