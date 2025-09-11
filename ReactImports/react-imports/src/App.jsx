@@ -12,6 +12,8 @@ function App() {
       <Header/>
       <Card/>
       <Card2/>
+      <Thirdparty/>
+      <img src="./vite.svg" alt=""/>
     </>
   )
 }
