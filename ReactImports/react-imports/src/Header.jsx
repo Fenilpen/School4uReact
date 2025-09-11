@@ -17,4 +17,11 @@ export function Card2 () {
     )
 }
 
+export function Thirdparty () {
+    return(
+        <h1>hi i am third party</h1>
+    )
+}
+
 export default head
+
