@@ -7,7 +7,6 @@ import reactlogo from "./assets/react.svg"   // to import image
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
