@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import {Head,Card,Card2,Thirdparty} from './Header'
+import reactlogo from "./assets/react.svg"   // to import image 
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Card/>
       <Card2/>
       <Thirdparty/>
-      <img src="./vite.svg" alt=""/>
+      <img src={reactlogo} alt=""/> 
     </>
   )
 }
