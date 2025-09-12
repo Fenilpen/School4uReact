@@ -16,6 +16,7 @@ function App() {
       <Card2/>
       <Thirdparty/>
       <img src={reactlogo} alt=""/> 
+      <img src="./src/assets/react.svg" alt=""/>    // using path
     </>
   )
 }
