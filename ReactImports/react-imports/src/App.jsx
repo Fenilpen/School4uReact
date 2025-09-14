@@ -9,6 +9,7 @@ function App() {
 
   return (
     <>
+      <Displayname/>
       <Header/>
       <Card/>
       <Card2/>
