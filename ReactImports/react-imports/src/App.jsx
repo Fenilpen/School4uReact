@@ -3,6 +3,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import {Head,Card,Card2,Thirdparty} from './Header'
 import reactlogo from "./assets/react.svg"   // to import image 
+import Displayname from './utilities'
 
 
 function App() {
