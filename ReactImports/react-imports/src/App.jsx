@@ -8,6 +8,9 @@ import Displayname from './utilities'
 
 function App() {
 
+  let totalSum = SuperSum(3,3)
+  console.log(totalSum);
+
   return (
     <>
       <Displayname/>
