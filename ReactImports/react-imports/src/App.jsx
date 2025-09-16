@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Displayname/>
-      <Header/>
+      <Head/>
       <Card/>
       <Card2/>
       <Thirdparty/>
