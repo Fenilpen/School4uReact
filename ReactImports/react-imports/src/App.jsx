@@ -4,7 +4,7 @@ import './App.css'
 import {Head,Card,Card2,Thirdparty} from './Header'
 import reactlogo from "./assets/react.svg"   // to import image 
 import Displayname,{SuperSum} from './utilities'
-
+import data from "./data.json"
 
 function App() {
 
