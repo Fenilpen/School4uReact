@@ -10,12 +10,17 @@ import data from "./data.json"
 // import axios from "axios"
 // import {browserRouter} from "react-router-dom"
 
+// importing hook
+import {useState} from "react"
+
 
 function App() {
 
   let totalSum = SuperSum(3,3)
   console.log(totalSum);
   console.log(data);
+
+  const [name,setName] = useState("blank")
 
   return (
     <>
