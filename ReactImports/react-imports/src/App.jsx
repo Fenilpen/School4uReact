@@ -6,6 +6,11 @@ import reactlogo from "./assets/react.svg"   // to import image
 import Displayname,{SuperSum} from './utilities'
 import data from "./data.json"
 
+// this is how to import packages
+// import axios from "axios"
+// import {browserRouter} from "react-router-dom"
+
+
 function App() {
 
   let totalSum = SuperSum(3,3)
