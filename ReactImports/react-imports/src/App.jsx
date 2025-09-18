@@ -10,6 +10,7 @@ function App() {
 
   let totalSum = SuperSum(3,3)
   console.log(totalSum);
+  console.log(data);
 
   return (
     <>
