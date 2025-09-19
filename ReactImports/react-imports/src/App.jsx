@@ -1,3 +1,4 @@
+// importing hook
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -9,9 +10,6 @@ import data from "./data.json"
 // this is how to import packages
 // import axios from "axios"
 // import {browserRouter} from "react-router-dom"
-
-// importing hook
-import {useState} from "react"
 
 
 function App() {
