@@ -23,3 +23,18 @@ export default App
 // what is jsx ??
 // JSX is a sytex extension for javascript used in react.
 // it lets you write HTMl like code inside javascript
+
+// React code heavily uses JSX, a syntax extension that looks like HTML but is not standard JavaScript; 
+// Babel converts this into standard JavaScript function calls usable by browsers.
+
+// JSX Transpilation: Converts JSX into JavaScript function calls.
+// ES6+ to ES5: Converts modern JavaScript to ES5 for wider browser compatibility
+
+// Embedding expressions 
+
+// Valid Expressions:
+
+// Variables
+// Function calls
+// Ternary expressions
+// Mathematical operations
