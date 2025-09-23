@@ -14,3 +14,8 @@ function App() {
 }
 
 export default App
+
+
+// what is jsx ??
+// JSX is a sytex extension for javascript used in react.
+// it lets you write HTMl like code inside javascript
