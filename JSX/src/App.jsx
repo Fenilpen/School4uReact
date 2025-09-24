@@ -38,3 +38,17 @@ export default App
 // Function calls
 // Ternary expressions
 // Mathematical operations
+
+
+// statement like if-else,for etc. are not allowed
+
+// Note:
+// JSX and template literals both folllow this rule:
+// only expressions can go inside {} or ${} and not statements 
+
+// Expressions can be part of statements (e.g., in conditions or assignments), 
+// but statements cannot be used where a value is expected, such as function arguments.
+// While expressions always produce a value, statements focus on actions like variable declaration 
+// or loops, and may include expressions within them.
+// In contexts like React JSX, expressions are used for embedding values or conditional rendering, 
+// whereas statements like if-else require alternative approaches.
