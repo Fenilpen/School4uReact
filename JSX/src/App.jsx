@@ -8,11 +8,15 @@ function App() {
 
   return (
     <>
-    <h1>helloww  jsx </h1>
+      <h1 style={{
+      backgroundColor:"red"
+    }}>i am MBGA</h1>
+      
+    {/* <h1>helloww  jsx </h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas. 
     Temporibus accusantium quam sapiente voluptatibus impedit. Quam maiores, velit possimus esse pariatur rem eligendi cupiditate adipisci voluptas, enim exercitationem architecto!
     A, consequuntur cum impedit quam numquam expedita quisquam in incidunt dolorem sunt necessitatibus tempore suscipit dolor cumque laudantium harum perspiciatis accusantium voluptas officiis pariatur modi? Ullam sunt ea maxime deleniti?
-    Fugiat nostrum, nulla placeat sequi soluta pariatur consequatur </p>
+    Fugiat nostrum, nulla placeat sequi soluta pariatur consequatur </p> */}
     </>
   )
 }
