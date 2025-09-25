@@ -9,7 +9,9 @@ function App() {
   return (
     <>
       <h1 style={{
-      backgroundColor:"red"
+      backgroundColor:"red",
+      boxShadow:"1px 1px 5px 15px lightblue",
+      borderRadius:"5px"
     }}>i am MBGA</h1>
       
     {/* <h1>helloww  jsx </h1>
