@@ -5,6 +5,9 @@ import './App.css'
 
 function App() {
 
+  let age = 19
+  let inStock = true
+  
   return (
     <>
       {/* <h1 style={{
@@ -18,8 +21,8 @@ function App() {
     }}>i am MBGA</h1> */}
 
     {age > 18 ? <p style={{color:"Green", fontSize:"40px"}}>You can drive</p> : <p style={{color:"red", fontSize:"40px"}}>You cannot drive</p> }
-
-      
+    {inStock && <p>Product is out of stock</p>}
+    
     {/* <h1>helloww  jsx </h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas. 
     Temporibus accusantium quam sapiente voluptatibus impedit. Quam maiores, velit possimus esse pariatur rem eligendi cupiditate adipisci voluptas, enim exercitationem architecto!
