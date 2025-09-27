@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h1 style={{
+      {/* <h1 style={{
       backgroundColor:"lightgreen",
       "color":"blue",
       boxShadow:"1px 1px 5px 15px lightblue",
@@ -15,7 +15,10 @@ function App() {
       padding:"0.5rem",
       textAlign:"center",
       maxWidth:"1280px"
-    }}>i am MBGA</h1>
+    }}>i am MBGA</h1> */}
+
+    {age > 18 ? <p style={{color:"Green", fontSize:"40px"}}>You can drive</p> : <p style={{color:"red", fontSize:"40px"}}>You cannot drive</p> }
+
       
     {/* <h1>helloww  jsx </h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas. 
