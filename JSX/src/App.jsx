@@ -22,6 +22,7 @@ function App() {
 
     {age > 18 ? <p style={{color:"Green", fontSize:"40px"}}>You can drive</p> : <p style={{color:"red", fontSize:"40px"}}>You cannot drive</p> }
     {inStock && <p>Product is out of stock</p>}
+    {inStock || <p>Product is out of stock</p>}
     
     {/* <h1>helloww  jsx </h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas. 
