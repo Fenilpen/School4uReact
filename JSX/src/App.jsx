@@ -7,6 +7,9 @@ function App() {
 
   let age = 19
   let inStock = true
+
+  let arr = ["ironman","spider man","wanda","captain"]
+
   
   return (
     <>
