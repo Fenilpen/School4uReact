@@ -27,9 +27,14 @@ function App() {
     {inStock && <p>Product is out of stock</p>}
     {inStock || <p>Product is out of stock</p>} */
 
-    {arr.map((item,index)=>{
+    /* {arr.map((item,index)=>{
       return <h1 >{item}</h1>
-    })}
+    })} */
+
+    {React.createElement("h1",null,"hello this is create element")}
+
+    {/* with props */}
+    {React.createElement("h1",{className:"head" , style: {color:"red"} },"hello from these")}
     
     {/* <h1>helloww  jsx </h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas. 
