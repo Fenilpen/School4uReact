@@ -9,7 +9,7 @@ function App() {
   let inStock = true
 
   let arr = ["ironman","spider man","wanda","captain"]
-
+  let alpha = <p>hello how are {2+2} you</p>
   
   return (
     <>
