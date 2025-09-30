@@ -93,3 +93,10 @@ export default App
 // React might incorrectly shift states or props to the wrong elements.
 
 // Keys enable React's reconciliation algorithm to make precise DOM updates, improving speed and reliability.
+
+
+// React behind the scenes
+// compled to react.createElement() behind the scenes
+// (JSX)      const element = <h1>Hello,school4U</h1>;
+// (Complied) const element = React.createElement("h1",null,"Hello School4U");
+//                              React.createElement(type,props,....children)              
