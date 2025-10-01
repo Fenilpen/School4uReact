@@ -36,7 +36,11 @@ function App() {
     {/* with props */}
     {React.createElement("h1",{className:"head" , style: {color:"red"} },"hello from these")}
 
-      
+    {/* {React.createElement(
+      "h1",
+      null,
+      "my name is" , alpha
+    )} */}
       
     {
       React.createElement(
