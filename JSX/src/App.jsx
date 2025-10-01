@@ -42,7 +42,7 @@ function App() {
       "my name is" , alpha
     )} */}
       
-    {
+    /* {
       React.createElement(
         "h1",
         null,
@@ -67,7 +67,7 @@ function App() {
           "hello4"
         )
       )
-    }
+    } */
       
       
     {/* <h1>helloww  jsx </h1>
