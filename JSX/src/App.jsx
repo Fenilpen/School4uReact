@@ -35,7 +35,37 @@ function App() {
 
     {/* with props */}
     {React.createElement("h1",{className:"head" , style: {color:"red"} },"hello from these")}
-    
+
+      
+      
+    {
+      React.createElement(
+        "h1",
+        null,
+        React.createElement(
+          "p",
+          {style:{backgroundColor:"red"}},
+          "hello1"
+        ),
+        React.createElement(
+          "p",
+          {style:{backgroundColor:"red"}},
+          "hello2"
+        ),
+        React.createElement(
+          "p",
+          {style:{backgroundColor:"red"}},
+          "hello3"
+        ),
+        React.createElement(
+          "p",
+          {style:{backgroundColor:"red"}},
+          "hello4"
+        )
+      )
+    }
+      
+      
     {/* <h1>helloww  jsx </h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptas. 
     Temporibus accusantium quam sapiente voluptatibus impedit. Quam maiores, velit possimus esse pariatur rem eligendi cupiditate adipisci voluptas, enim exercitationem architecto!
