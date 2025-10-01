@@ -156,4 +156,7 @@ export default App
 // compled to react.createElement() behind the scenes
 // (JSX)      const element = <h1>Hello,school4U</h1>;
 // (Complied) const element = React.createElement("h1",null,"Hello School4U");
-//                              React.createElement(type,props,....children)              
+//                              React.createElement(type,props,....children)      
+
+// class = className
+// for = htmlfor
