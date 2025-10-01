@@ -68,6 +68,24 @@ function App() {
         )
       )
     } */
+
+
+    {
+      React.createElement(
+        "div",
+        {className:"card"},
+        React.createElement(
+          "h1",
+          null,
+          `hello ${user.names}`
+        ),
+        React.createElement(
+          "p",
+          null,
+          `You are ${user.age + 1} years old next year.`
+        )
+      )
+    }
       
       
     {/* <h1>helloww  jsx </h1>
