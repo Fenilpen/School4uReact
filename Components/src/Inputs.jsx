@@ -1,9 +1,7 @@
 import { useState } from "react"
 
-
 function Inputbox ({onChange}) {
-
-const [color,setColor] = useState(null)
+    const [color,setColor] = useState(null)
 
 
     return(
