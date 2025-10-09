@@ -1,6 +1,7 @@
 import { useState } from 'react'
-
 import './App.css'
+import { Inputbox} from './Inputs'
+
 
 function Box(){
 // const [value,setValue] = useState("red")
@@ -23,7 +24,7 @@ function App() {
 
   return (
     <>
-     
+     <Box/>
     </>
   )
 }
