@@ -4,8 +4,8 @@ import { Inputbox} from './Inputs'
 
 
 function Box(){
-// const [value,setValue] = useState("red")
-const [value,setValue] = useState(null)
+
+const [value,setValue] = useState("")
   return(
     <>
     <div className='Box' style={{
