@@ -20,7 +20,6 @@ const [value,setValue] = useState("")
 }
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
