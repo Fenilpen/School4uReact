@@ -4,10 +4,10 @@ import { Inputbox} from './Inputs'
 
 
 function Box(){
+const [input, setInput] = useState("")
+const [colors, setColors] = useState([])
 
-const [value,setValue] = useState("")
-
-    // Adding color to the list and clearing the input
+// Adding color to the list and clearing the input
   const handleAddColor = () => {
     if (input.trim() !== "") {
       setColors([...colors, input])
