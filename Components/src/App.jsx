@@ -18,11 +18,12 @@ const [colors, setColors] = useState([])
   return(
     <>
     <div className='Box' style={{
-      backgroundColor: value ,
+      backgroundColor: input ,
       color:"white"
-    }}>{value}</div>
+    }}>{input}</div>
     <div className='inputBox'>
-      <Inputbox onChange={e => setValue(e.target.value)}/>
+      <Inputbox onChange={e => setInput(e.target.value)}/>
+      <button onClick={handleAddColor}>Add Color</button>
     </div>
     </>
   )
