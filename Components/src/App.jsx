@@ -6,6 +6,15 @@ import { Inputbox} from './Inputs'
 function Box(){
 
 const [value,setValue] = useState("")
+
+    // Adding color to the list and clearing the input
+  const handleAddColor = () => {
+    if (input.trim() !== "") {
+      setColors([...colors, input])
+      setInput("")
+    }
+  }
+  
   return(
     <>
     <div className='Box' style={{
