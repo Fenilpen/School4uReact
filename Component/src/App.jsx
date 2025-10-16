@@ -29,7 +29,8 @@ function App() {
   return (
     <>
     <h1>hello react pe react</h1>
-    <Square/>
+    {/* <Square/> */}
+    {/* {square("hello para1" ,"this is para2")} */}
     </>
   )
 }
