@@ -12,6 +12,17 @@ import './App.css'
 //   )
 // }
 
+function Square(para1,para2){
+  return(
+    <>
+    <div className="Square">
+    <h1>{para1}</h1>
+    <h1>{para2}</h1>
+    </div>
+    </>
+  )
+}
+
 function App() {
   const [count, setCount] = useState(0)
 
