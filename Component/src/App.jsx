@@ -26,6 +26,21 @@ function Square(props){
   )
 }
 
+// as a class
+
+// class Square extends Component{
+//   render(){
+//     return(
+//     <>
+//     <div className="Square">
+//     <h1>{this.props.name}</h1>
+//     <h1>{this.props.age}</h1>
+//     </div>
+//     </>
+//   )
+//   }
+// }
+
 function App() {
   const [count, setCount] = useState(0)
 
