@@ -42,12 +42,11 @@ function Square(props){
 // }
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     <h1>hello react pe react</h1>
-    {/* <Square/> */}
+    {/* <Square  name="Fenil" age="25"/> */}
     {/* {square("hello para1" ,"this is para2")} */}
     </>
   )
