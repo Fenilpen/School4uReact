@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import './App.css'
+import Card from './Components/Card'
+
 
 // as a function
 
@@ -45,9 +47,10 @@ function App() {
 
   return (
     <>
-    <h1>hello react pe react</h1>
+    {/* <h1>hello react pe react</h1> */}
     {/* <Square  name="Fenil" age="25"/> */}
     {/* {square("hello para1" ,"this is para2")} */}
+      <Card/>
     </>
   )
 }
