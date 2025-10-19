@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div class="card">
-      <h1>Title</h1>
-      <p>description</p>
+      <h1>{props.title}</h1>
+      <p>{props.description}</p>
     </div>
   )
 }
