@@ -41,9 +41,14 @@
   color: #888;
 }
 
-
 .card{
   background-color: rgb(100, 103, 68);
   padding: 20px;
   border-radius: 10px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
