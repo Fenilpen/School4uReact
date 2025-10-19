@@ -50,7 +50,13 @@ function App() {
     {/* <h1>hello react pe react</h1> */}
     {/* <Square  name="Fenil" age="25"/> */}
     {/* {square("hello para1" ,"this is para2")} */}
-      <Card/>
+    <div className="grid">
+    <Card title="Cloths" description="Kids & Adults"/>
+    <Card title="Applience" description="Home"/>
+    <Card title="Electrics" description="Mobiles"/>
+    <Card title="Wood" description="Fruniture"/>
+    <Card title="Car acssesories" description="Mechenics"/>
+    </div>
     </>
   )
 }
