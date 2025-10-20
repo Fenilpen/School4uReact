@@ -51,12 +51,11 @@ function App() {
     {/* <Square  name="Fenil" age="25"/> */}
     {/* {square("hello para1" ,"this is para2")} */}
     <div className="grid">
-    <Card title="Cloths" description="Kids & Adults"/>
-    <Card title="Applience" description="Home"/>
-    <Card title="Electrics" description="Mobiles"/>
-    <Card title="Wood" description="Fruniture"/>
-    <Card title="Car acssesories" description="Mechenics"/>
-    </div>
+    <Card title="Cloths" description="Kids & Adults" prise="P > 999"/>
+    <Card title="Applience" description="Home" prise="P > 1999"/>
+    <Card title="Electrics" description="Mobiles" prise="P > 3999"/>
+    <Card title="Wood" description="Fruniture" prise="P > 1999"/>
+    <Card title="Car acssesories" description="Mechenics" prise="P > 599"/>
     </>
   )
 }
