@@ -53,9 +53,11 @@ function App() {
     <div className="grid">
     <Card title="Cloths" description="Kids & Adults" price="P > 999"/>
     <Card title="Applience" description="Home" price="P > 1999"/>
-    <Card title="Electrics" description="Mobiles" price="P > 3999"/>
+    <Card title="Electronics" description="Mobiles" price="P > 3999"/>
     <Card title="Wood" description="Furniture" price="P > 1999"/>
     <Card title="Car acssesories" description="Mechenics" price="P > 599"/>
+    </div>
+      // every component has its own state and data
     </>
   )
 }
