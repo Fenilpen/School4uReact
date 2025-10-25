@@ -1,7 +1,7 @@
-
+import "./app.css"
+import Card from "./card"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
