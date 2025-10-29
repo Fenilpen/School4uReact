@@ -6,6 +6,7 @@ function Card() {
     <button className='btn'>card</button>
     <p className={style.Text}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, itaque odit non, quaerat fugit ipsam accusamus illo dicta neque, consectetur ut totam provident dolor error accusantium laboriosam ipsum voluptatum? Veritatis.
     Quisp</p>
+    <h1 style={{backgroundColor:"red"}}>Example of inline inline css</h1>
     </>
 
   )
