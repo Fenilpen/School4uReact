@@ -1,9 +1,10 @@
-// import "./Card.css"
+import "./Card.css"
 
-function Card ({title}){
+function Card (){
     return(
     <>
-    <h1 className="bac">{title} card</h1>
+    <h1> here card</h1>
+    {/* <h1>{title} card</h1> */}
     </>        
     )
 }
