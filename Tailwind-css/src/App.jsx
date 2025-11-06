@@ -1,6 +1,8 @@
 import './App.css'
 import "./Card.css"
 import Card from './Card'
+import Header from './Components/Header'
+
 
 function App() {
 
