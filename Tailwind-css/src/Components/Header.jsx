@@ -1,4 +1,6 @@
 import React from 'react'
+import Button from './Button'
+
 
 function Header() {
   return (
@@ -15,7 +17,7 @@ function Header() {
       <a href="">Portfolio</a>
     </div>
     
-    <button className='bg-[tomato] rounded-lg px-3 py-2'>Join US</button>
+    <Button title="Join-US"/>
     </header>
     
     </div>
