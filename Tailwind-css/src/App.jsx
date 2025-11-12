@@ -11,9 +11,6 @@ function App() {
     <> 
     <Header/>
     <Hero/>
-    <div className='text-3xl'>
-    <Button title="Join subscription"/>
-    </div>
     <Footer/>
     </>
   )
