@@ -5,18 +5,42 @@ function Footer() {
   return (
     <div className='bg-red-300 py-5'>
     
-    <header className='max-w-[60rem] flex justify-between items-center text-xl text-black/80 bg-red-300 m-auto'>
+    <header className="px-[1rem] max-w-[60rem] pb-8 grid grid-cols-5 max-[770px]:gap-[2rem] max-[770px]:grid-cols-2 max-[400px]:grid-cols-1 text-xl text-black/80 m-auto">
 
     <h1 className='text-3xl'><span className='font-extrabold text-[tomato]'>B</span>rand</h1>
     
-    <div className='flex items-center gap-7'>
+    <div className='flex flex-col gap-1'>
+      <h1 className='font-bold mb-3'>Company</h1>
+      <a href="">Features</a>
+      <a href="">Use Cases</a>
+      <a href="">Intergrations</a>
+      <a href="">Portfolio</a>
+    </div>
+
+    <div className='flex flex-col gap-1'>
+      <h1 className='font-bold mb-3'>Company</h1>
+      <a href="">Features</a>
+      <a href="">Use Cases</a>
+      <a href="">Intergrations</a>
+      <a href="">Portfolio</a>
+    </div>
+
+    <div className='flex flex-col gap-1'>
+      <h1 className='font-bold mb-3'>Company</h1>
+      <a href="">Features</a>
+      <a href="">Use Cases</a>
+      <a href="">Intergrations</a>
+      <a href="">Portfolio</a>
+    </div>
+
+    <div className='flex flex-col gap-1'>
+      <h1 className='font-bold mb-3'>Company</h1>
       <a href="">Features</a>
       <a href="">Use Cases</a>
       <a href="">Intergrations</a>
       <a href="">Portfolio</a>
     </div>
     
-    <Button title="Join-US"/>
     </header>
     
     </div>
