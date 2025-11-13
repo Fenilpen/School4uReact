@@ -42,7 +42,17 @@ function Footer() {
     </div>
     
     </header>
-    
+
+    <div className='w-full h-[1px] bg-[tomato]'></div>
+
+    <div className='max-w-[60rem] m-auto flex justify-between'>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, sint.</p>
+      <div className='flex gap-5'>
+        <a href="" className='font-bold'>T</a>
+        <a href="" className='font-bold'>X</a>
+      </div>
+    </div>
+      
     </div>
   )
 }
