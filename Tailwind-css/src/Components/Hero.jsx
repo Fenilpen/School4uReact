@@ -9,8 +9,8 @@ function Hero() {
     <span className='bg-red-300 rounded-2xl px-3'>Review</span> Creative Assets</h1>
     <p className='text-lg my-7' >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel quisquam quo laborum 
     odio dolorem dignissimos deleniti ea explicabo praesentium consequatur?</p>
-    <div className='text-3xl'>
-    <Button  title="Join subscription"/>
+    <div className='max-[500px]:text-sm text-3xl'>
+    <Button title="Join subscription"/>
     </div>
     </div>
     </>
