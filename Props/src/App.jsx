@@ -9,7 +9,12 @@ function App() {
 
   return (
     <>
-     <Card/>
+     <div className='layout'>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    </div>
     </>
   )
 }
