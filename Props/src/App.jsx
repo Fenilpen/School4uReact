@@ -8,7 +8,13 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    
+    <div className='layout'>
+    <Card name={"ABCD"} age={25}/>
+    <Card name="Alpha"/>
+    <Card/>
+    <Card/>
+    <Card/>
+    </div>
      
   )
 }
