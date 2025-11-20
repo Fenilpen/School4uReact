@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Card() {
+function Card(object) {
+  
   return (
     <div className='card'>
-      Fenil patel
+     {object.name}
     </div>
   )
 }
