@@ -4,7 +4,7 @@ function Card(object) {
   
   return (
     <div className='card'>
-     {object.name}
+     {name}
     </div>
   )
 }
