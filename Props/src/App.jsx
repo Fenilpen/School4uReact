@@ -7,10 +7,6 @@ function App() {
   return (
     <div className='layout'>
     <Card name={"ABCD"} age={25}/>
-    <Card name="Alpha"/>
-    <Card/>
-    <Card/>
-    <Card/>
     </div>
      
   )
