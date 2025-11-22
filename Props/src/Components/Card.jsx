@@ -3,9 +3,8 @@ import React from 'react'
 function Card({name}) {
   
   return (
-    <div className='card'>
-     {name}
-    </div>
+    <div className='card'>{name}</div>
+    <h1 className="card">{age}</h1>
   )
 }
 
