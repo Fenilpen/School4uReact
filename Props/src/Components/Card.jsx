@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({name}) {
+function Card({name,age}) {
   
   return (
     <div className='card'>{name}</div>
