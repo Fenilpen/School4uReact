@@ -7,6 +7,7 @@ function App() {
   return (
     <div className='layout'>
     <Card name={"ABCD"} age={25}/>
+    <Card name={"WXYZ"} age={28}/>
     </div>
      
   )
