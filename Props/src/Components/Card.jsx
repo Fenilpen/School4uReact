@@ -3,8 +3,10 @@ import React from 'react'
 function Card({name,age}) {
   
   return (
-    <div className='card'>{name}</div>
-    <h1 className="card">{age}</h1>
+    <div className='card'>
+    <div>{name}</div>
+    <h1>{age}</h1>
+    </div>
   )
 }
 
