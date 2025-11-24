@@ -1,11 +1,10 @@
 import React from 'react'
 
-function Card({name,age}) {
+function Card({data,isStudent}) {
   
   return (
     <div className='card'>
-    <div>{name}</div>
-    <h1>{age}</h1>
+    
     </div>
   )
 }
