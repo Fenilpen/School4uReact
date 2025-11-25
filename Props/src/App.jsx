@@ -13,8 +13,6 @@ function App() {
   return (
     <div className='layout'>
     <Card data={obj} isStudent={true}/>
-    
-    <Card />
     </div>
      
   )
