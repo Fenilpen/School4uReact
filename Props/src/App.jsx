@@ -6,7 +6,8 @@ function App() {
 
   const obj = {
     name:"Fenil",
-    age: 28
+    age: 28,
+    quali:9
   }
 
   return (
