@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import Card from './Components/Card'
+import Button from './Components/Button'
+
 
 function App() {
 
@@ -13,6 +15,8 @@ function App() {
   return (
     <div className='layout'>
     <Card data={obj} isStudent={true}/>
+    <Button title={"Click me"}/>
+    <Button title={"Submit"}/>
     </div>
      
   )
