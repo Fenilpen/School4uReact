@@ -19,7 +19,7 @@ function App() {
     <div className='layout'>
     <Card data={obj} isStudent={true}/>
     <Button title={"Click me"}/>
-    <Button title={"Submit"}/>
+    <Button title={"Submit"} func={buttononClick}/>
     </div>
      
   )
