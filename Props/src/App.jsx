@@ -9,9 +9,12 @@ function App() {
   const obj = {
     name:"Fenil",
     age: 28,
-    quali:9
   }
 
+  function buttononClick(){
+    console.log("button one is clicked")
+  }
+  
   return (
     <div className='layout'>
     <Card data={obj} isStudent={true}/>
