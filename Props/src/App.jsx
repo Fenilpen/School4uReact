@@ -14,12 +14,16 @@ function App() {
   function buttononClick(){
     console.log("button one is clicked")
   }
+
+  function button2onClick(){
+    console.log("button two is clicked")
+  }
   
   return (
     <div className='layout'>
     <Card data={obj} isStudent={true}/>
     <Button title={"Click me"}  func={buttononClick}/>
-    <Button title={"Submit"} func={buttononClick}/>
+    <Button title={"Submit"} func={button2onClick}/>
     </div>
      
   )
