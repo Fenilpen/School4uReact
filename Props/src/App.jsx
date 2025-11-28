@@ -18,7 +18,7 @@ function App() {
   return (
     <div className='layout'>
     <Card data={obj} isStudent={true}/>
-    <Button title={"Click me"}/>
+    <Button title={"Click me"}  func={buttononClick}/>
     <Button title={"Submit"} func={buttononClick}/>
     </div>
      
