@@ -30,7 +30,7 @@ function App() {
       </p>
       </> 
       }/>
-    <Card data={obj} isStudent={true}/>
+    
     <Button title={"Click me"}  func={buttononClick}/>
     <Button title={"Submit"} func={button2onClick}/>
     </div>
