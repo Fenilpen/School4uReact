@@ -21,6 +21,15 @@ function App() {
   
   return (
     <div className='layout'>
+    <Card data={obj} isStudent={true} content={
+      <>
+      <h1>Hello</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Consectetur non accusantium quos natus velit nisi alias 
+        consequuntur aliquid maxime veniam?
+      </p>
+      </> 
+      }/>
     <Card data={obj} isStudent={true}/>
     <Button title={"Click me"}  func={buttononClick}/>
     <Button title={"Submit"} func={button2onClick}/>
