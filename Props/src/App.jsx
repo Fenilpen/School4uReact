@@ -31,12 +31,15 @@ function App() {
       </> 
       }/> */}
     
-    <Button>
+  <Button>
     click me
    </Button>
       
-    <Button title={"Submit"} func={button2onClick}/>
-      <Layout > <h1>hellow</h1> </Layout>
+  <Button>
+    click
+  </Button>
+      
+      {/* <Layout > <h1>hellow</h1> </Layout> */}
     </div>
      
   )
