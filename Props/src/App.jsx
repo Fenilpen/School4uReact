@@ -29,10 +29,13 @@ function App() {
         consequuntur aliquid maxime veniam?
       </p>
       </> 
-      }/>
+      }/> */}
     
-    <Button title={"Click me"}  func={buttononClick}/>
-    <Button title={"Submit"} func={button2onClick}/> */}
+    <Button>
+    click me
+   </Button>
+      
+    <Button title={"Submit"} func={button2onClick}/>
       <Layout > <h1>hellow</h1> </Layout>
     </div>
      
