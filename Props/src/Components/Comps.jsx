@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Comp() {
+function Comp({title,age}) {
   return (
     <div>
-      
+      <h1></h1>
     </div>
   )
 }
