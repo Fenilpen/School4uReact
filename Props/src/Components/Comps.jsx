@@ -12,3 +12,8 @@ function Comp({title="this is title",age}) {
 }
 
 export default Comp
+
+Comp.defaultProps={
+  title:"this is title",
+  age: 20
+}
