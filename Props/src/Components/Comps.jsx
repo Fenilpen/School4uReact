@@ -1,6 +1,8 @@
 import React from 'react'
 
-function Comp({title,age}) {
+// default values
+
+function Comp({title="this is title",age}) {
   return (
     <div>
       <h1>{title}</h1>
