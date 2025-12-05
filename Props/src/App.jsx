@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Card from './Components/Card'
 import Button from './Components/Button'
+import Comp from './Components/Comp'
 
 
 function App() {
@@ -38,6 +39,8 @@ function App() {
   <Button>
     click
   </Button>
+
+      <Comp/>
       
       {/* <Layout > <h1>hellow</h1> </Layout> */}
     </div>
