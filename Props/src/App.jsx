@@ -7,10 +7,10 @@ import Comp from './Components/Comp'
 
 function App() {
 
-  const obj = {
-    name:"Fenil",
-    age: 28,
-  }
+  // const obj = {
+  //   name:"Fenil",
+  //   age: 28,
+  // }
 
   function buttononClick(){
     console.log("button one is clicked")
@@ -40,7 +40,9 @@ function App() {
     click
   </Button>
 
-      <Comp/>
+    <Comp title={"this is audiable"}/>
+    <Comp age={20}/>
+    <Comp {...obj} />    // spred operator
       
       {/* <Layout > <h1>hellow</h1> </Layout> */}
     </div>
