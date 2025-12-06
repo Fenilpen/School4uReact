@@ -12,6 +12,12 @@ function App() {
   //   age: 28,
   // }
 
+  const obj2 = {
+    title:"Names",
+    age: 20
+  }
+
+
   function buttononClick(){
     console.log("button one is clicked")
   }
@@ -42,7 +48,7 @@ function App() {
 
     <Comp title={"this is audiable"}/>
     <Comp age={20}/>
-    <Comp {...obj} />    // spred operator
+    <Comp {...obj2} />    // spred operator
       
       {/* <Layout > <h1>hellow</h1> </Layout> */}
     </div>
