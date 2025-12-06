@@ -2,7 +2,7 @@ import React from 'react'
 
 // default values
 
-function Comp({title="this is title",age}) {
+function Comp({title="this is default title",age}) {
   return (
     <div>
       <h1>{title}</h1>
