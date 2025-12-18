@@ -4,7 +4,8 @@ import About from './About'
 
 function Layout() {
   return (
-    <div className='h-[30vw] bg-gray-400w-full'>
+    <div className='p-[2rem] h-[30vh] bg-gray-400w-full'>
+      Layout
       <Hero/>
       <About/>
     </div>
