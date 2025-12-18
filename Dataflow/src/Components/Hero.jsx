@@ -2,8 +2,8 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div>
-      
+    <div className='bg-amber-700'>
+      Hero
     </div>
   )
 }
