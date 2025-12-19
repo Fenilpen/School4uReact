@@ -5,14 +5,12 @@ import Footer from './components/Footer'
 import Layout from './components/Layout'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
     <Header/>
     <Layout/>
     <Footer/>
-    <Layout/>
     </>
   )
 }
