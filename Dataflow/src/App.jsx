@@ -5,12 +5,13 @@ import Footer from './components/Footer'
 import Layout from './components/Layout'
 
 function App() {
+const [data,setData] = useState(0);
 
   return (
     <>
-    <Header/>
-    <Layout/>
-    <Footer/>
+      <Header data={data}/>
+      <Layout data={data}/>
+      <Footer data={data}/>
     </>
   )
 }
