@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Layout() {
+function Layout(props) {
   return (
     <div className='bg-orange-400'>
       About
