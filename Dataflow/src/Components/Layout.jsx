@@ -6,8 +6,8 @@ function Layout(props) {
   return (
     <div className='p-[2rem] h-[30vh] bg-gray-400w-full'>
       Layout
-      <Hero data={props.data}/>
-      <About data={props.data}/>
+      <Hero data={props.data} count={count}/>
+      <About data={props.data} count={count}/>
     </div>
   )
 }
