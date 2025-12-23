@@ -13,7 +13,7 @@ console.log(param);
 
   return (
     <>
-      <Header data={data} />
+      <Header data={data} func={recieve}/>
       <Layout data={data}/>
       <Footer data={data}/>
     </>
