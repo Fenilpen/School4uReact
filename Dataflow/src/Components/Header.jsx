@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Header(props) {
-  props.recieve("hello")
+  props.func("hello")
   return (
     <div className='bg-red-500'>
       Header
