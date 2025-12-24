@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Layout from './components/Layout'
 
 function App() {
-const [data,setData] = useState(0);
+const [data,setData] = useState("Callback succesfully");
 
 function recieve (param) {
 console.log(param);
