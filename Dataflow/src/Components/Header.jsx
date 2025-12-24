@@ -1,9 +1,14 @@
 import React from 'react'
 
 function Header(props) {
-  props.func("hello")
+
+  function changeData(){
+    props.func('child data')
+  }
+  
+ 
   return (
-    <div className='bg-red-500'>
+    <div onClick={changeData} className='bg-red-500'>
       Header
     </div>
   )
