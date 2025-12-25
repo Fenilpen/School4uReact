@@ -5,7 +5,7 @@ function Header(props) {
   const [headerdata,setHeaderdata] = useState('its Headers data')
 
   function changeData(){
-    props.func('child data')
+    props.func(headerdata)
   }
   
  
