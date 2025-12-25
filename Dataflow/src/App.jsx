@@ -7,8 +7,8 @@ import Layout from './components/Layout'
 function App() {
 const [data,setData] = useState("Callback succesfully");
 
-function recieve (param) {
-console.log(param);
+function recieve (data) {
+setData(data)
 }
 
   return (
