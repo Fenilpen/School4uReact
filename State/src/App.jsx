@@ -17,3 +17,6 @@ export default App
 // why do we need state
 // dynamic UI
 // Example: in a counter button:
+
+// without state, UI wont update when clicked
+// with state, UI will update when clicked
