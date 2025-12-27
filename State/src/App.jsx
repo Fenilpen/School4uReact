@@ -13,3 +13,7 @@ function App() {
 }
 
 export default App
+
+// why do we need state
+// dynamic UI
+// Example: in a counter button:
