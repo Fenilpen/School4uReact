@@ -33,3 +33,6 @@ export default App
 // state updater function: requests react update the state and re-render the components.
 // ensures changes are tracked by react's internal system.
 
+// note
+// never modify state directly(count = count + 1 X).
+// directly mutating the variable won't trigger re-render. 
