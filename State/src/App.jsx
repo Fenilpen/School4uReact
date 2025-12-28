@@ -20,3 +20,8 @@ export default App
 
 // without state, UI wont update when clicked
 // with state, UI will update when clicked
+
+// understanding usestate hook
+
+// syntex & destructuring:
+// const [count,setCount] = useState(0);
