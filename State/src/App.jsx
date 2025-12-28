@@ -25,3 +25,11 @@ export default App
 
 // syntex & destructuring:
 // const [count,setCount] = useState(0);
+
+// state variable : a state variable is a special variable in react
+// that holds data that changes over time and should trigger a re-render
+// of the components when it changes.
+
+// state updater function: requests react update the state and re-render the components.
+// ensures changes are tracked by react's internal system.
+
