@@ -4,6 +4,9 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  // const arr = useState(0)
+  // console.log(arr);
+
   return (
     <>
      <h1>{count}</h1>
