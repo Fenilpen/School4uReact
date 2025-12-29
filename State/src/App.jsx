@@ -5,6 +5,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   // const arr = useState(0)
+  // const [counts,setCounts] = useState(0)
   // console.log(arr);
 
   return (
