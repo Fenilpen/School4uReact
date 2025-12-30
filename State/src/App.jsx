@@ -4,7 +4,11 @@ import './App.css'
 function App() {
   // const [count, setCount] = useState(0)
 
- 
+ function increment (){
+    counts = counts + 1
+    console.log(counts);
+    
+  }
 
   return (
     <>
