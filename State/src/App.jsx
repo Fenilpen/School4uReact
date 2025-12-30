@@ -5,9 +5,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
  function increment (){
-    counts = counts + 1
-    console.log(counts);
-    
+    setCounts(counts + 1)
   }
 
   return (
