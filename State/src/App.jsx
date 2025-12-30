@@ -2,16 +2,16 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
-  // const arr = useState(0)
-  // const [counts,setCounts] = useState(0)
-  // console.log(counts,setCounts);
+  const arr = useState(0)
+  const [counts,setCounts] = useState(0)
+  console.log(counts,setCounts);
 
   return (
     <>
-     <h1>{count}</h1>
-     <button onClick={()=> {setCount( count + 1)}}> plus </button>
+     <h1>{counts}</h1>
+     <button onClick={()=> {setCounts( counts + 1)}}> plus </button>
     </>
   )
 }
