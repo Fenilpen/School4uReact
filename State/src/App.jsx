@@ -48,3 +48,9 @@ export default App
 // note
 // never modify state directly(count = count + 1 X).
 // directly mutating the variable won't trigger re-render. 
+
+
+// updatingState
+
+// Direct updates:
+// setCounts(count + 1)
