@@ -54,3 +54,9 @@ export default App
 
 // Direct updates:
 // setCounts(count + 1)
+
+// functional updates (when depading on previous state):
+// setCount(prev => prev + 1);
+
+// updating arrays & objects (use spread operator,immutability concept)
+// common mistakes: mutating directly (push, user.age = 22)
