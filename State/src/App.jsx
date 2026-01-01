@@ -74,3 +74,8 @@ export default App
 // Re-rendering: when the state is updated using its setter function,React detects this change.
 // it then queues a re-render of the components where the state was updated,and any child
 // components that depend on that state
+
+// UI Update: During the re-render. react re-executes the components render logic (the JSX).
+// it compares the new virtual DOM tree with the previous one and efficiently updates only
+// the necessary parts of the actual DOM to reflect the new state. this  ensures that the ui 
+// accurately displays the currrent state values
