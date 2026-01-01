@@ -60,3 +60,13 @@ export default App
 
 // updating arrays & objects (use spread operator,immutability concept)
 // common mistakes: mutating directly (push, user.age = 22)
+
+
+
+// how react components are rendred and updated
+
+// state declaration: components in react manage their data using "state".
+// in functional components, this is typicaly done using the useSate
+
+// updating state: when an event occures (e.g. a click button,data is fetched), you use
+// the state's updater function (eg setCount) to change the state value
