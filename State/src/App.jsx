@@ -70,3 +70,7 @@ export default App
 
 // updating state: when an event occures (e.g. a click button,data is fetched), you use
 // the state's updater function (eg setCount) to change the state value
+
+// Re-rendering: when the state is updated using its setter function,React detects this change.
+// it then queues a re-render of the components where the state was updated,and any child
+// components that depend on that state
