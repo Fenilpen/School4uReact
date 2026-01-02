@@ -84,3 +84,7 @@ export default App
 // memory
 // each component instance has its own independent state, even if its the same component used multiple times,
 
+// why it works like this
+
+// react doesnt attach state to the component function itself,
+// instead, react keeps a state "bucket" for each component instance in the tree.
