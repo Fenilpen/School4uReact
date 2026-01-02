@@ -88,3 +88,5 @@ export default App
 
 // react doesnt attach state to the component function itself,
 // instead, react keeps a state "bucket" for each component instance in the tree.
+// when react re-renders, it matches components using their position in the tree and gives them and 
+// gives tham back their own state memory 
