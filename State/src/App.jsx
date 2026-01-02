@@ -79,3 +79,8 @@ export default App
 // it compares the new virtual DOM tree with the previous one and efficiently updates only
 // the necessary parts of the actual DOM to reflect the new state. this  ensures that the ui 
 // accurately displays the currrent state values
+
+
+// memory
+// each component instance has its own independent state, even if its the same component used multiple times,
+
