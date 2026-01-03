@@ -92,3 +92,5 @@ export default App
 // gives tham back their own state memory 
 
 // Keyed Components
+// if you render components in a list
+// {items.map(item => <counter key={item.id}/>)}
