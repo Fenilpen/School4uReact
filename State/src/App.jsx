@@ -92,8 +92,3 @@ export default App
 // gives tham back their own state memory 
 
 // Keyed Components
-// if you render components in a list
-// {items.map(item => <counter key={item.id}/>)}
-
-// React uses the key prop to decide which state belongs to which component.
-// if key changes => react treats it as new component whith fresh state.
