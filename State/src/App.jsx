@@ -50,7 +50,7 @@ export default App
 // directly mutating the variable won't trigger re-render. 
 
 
-// updatingState
+// updating State
 
 // Direct updates:
 // setCounts(count + 1)
@@ -61,7 +61,9 @@ export default App
 // updating arrays & objects (use spread operator,immutability concept)
 // common mistakes: mutating directly (push, user.age = 22)
 
-
+// note 
+// never modify state diractly (const = const + 1   X ),
+// diractly mutating the variable won't trigger re-render
 
 // how react components are rendred and updated
 
