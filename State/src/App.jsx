@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Card from './Card'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
     <>
      <h1>{counts}</h1>
      <button onClick={increment}> plus </button>
+      <Card/>
     </>
   )
 }
