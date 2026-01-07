@@ -5,22 +5,20 @@ import Card from './Card'
 function App() {
   // const [count, setCount] = useState(0)
 
-  const [userData,setUserData] = ({
-    name: "fenil",
-    age:25,
-    passion:"govt"
-  })
+  // const [userData,setUserData] = ({
+  //   name: "fenil",
+  //   age:25,
+  //   passion:"govt"
+  // })
 
- function increment (){
-    setCounts(counts + 1)
-  }
+ // function increment (){
+ //    setCounts(counts + 1)
+ //  }
 
-  console.log(userData);
+  // console.log(userData);
 
   return (
     <>
-     <h1>{counts}</h1>
-     <button onClick={increment}> plus </button>
       <Card/>
     </>
   )
