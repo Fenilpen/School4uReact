@@ -13,7 +13,6 @@ function Card() {
     <>
      <h1>{counts}</h1>
      <button onClick={increment}> increment </button>
-     <Card/>
     </>
   )
 }
