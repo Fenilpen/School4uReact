@@ -5,7 +5,9 @@ function Card() {
   const [counts,setCounts] = useState(0)
   
   function increment (){
-    setCounts(counts + 1)
+   setCounts((prev)=>
+      prev + 1
+    )
     
   }
 
