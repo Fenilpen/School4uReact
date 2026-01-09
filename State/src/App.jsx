@@ -111,3 +111,7 @@ export default App
 // updating state doesn't happen immediatly; react schedules it and re-renders later.
 
 // const [count,setCount] = useState(0);
+// const handleClick = () => {
+//   setCount(count + 1);
+//   console.log(count) // will log old value, not update
+// }
