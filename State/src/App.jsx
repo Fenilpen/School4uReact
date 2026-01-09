@@ -16,9 +16,13 @@ function App() {
 
   // console.log(userData);
 
+  let arr = [1,2,3,4,5]
+
   return (
     <>
-      <Card/>
+      {arr.map((item,index)=> {
+      return <Card key={index}/>
+      })}
     </>
   )
 }
