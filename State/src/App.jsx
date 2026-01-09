@@ -102,5 +102,12 @@ export default App
 // {items.map(item => <counter key={item.id}/>)}
 
 // React uses the key prop to decide which state belongs to which component.
-
 // if key changes => react treats it as new component whith fresh state.
+
+
+// common pitfalls
+// Async nature of state updates
+
+// updating state doesn't happen immediatly; react schedules it and re-renders later.
+
+// const [count,setCount] = useState(0);
