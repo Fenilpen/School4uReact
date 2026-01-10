@@ -8,8 +8,12 @@ function Card() {
    setCounts((prev)=>
       prev + 1
     )
-    
   }
+
+  useEffect(()=>{
+    console.log(counts);
+    
+  })[counts]
 
   return (
     <>
