@@ -115,3 +115,13 @@ export default App
 //   setCount(count + 1);
 //   console.log(count) // will log old value, not update
 // }
+
+// 1  Async nature of state updates
+// updating state doesn't happen immediatly, React schedules it and re-renders later.
+
+// const [count,setCount] = useState(0);
+
+// const handleClick = () => {
+//   setCount(count + 1)
+//   console.log(count); // will log old value, not update
+// }
