@@ -132,9 +132,13 @@ export default App
 // react batches of multiple state bupdates in the same event to improve
 // performance (avoids unnecessary re-renders).
 
-const [count,setCount] = useState(0);
+// const [count,setCount] = useState(0);
  
-
+// const handleClick = () => {
+//   setCount(count + 1)
+//   setCount(count + 1)
+//   setCount(count + 1)
+// }
 
 
 // Here, count will increase will increase only by 1. not 3 (becuse react batches them, and each line uses old count)
