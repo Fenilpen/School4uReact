@@ -125,3 +125,13 @@ export default App
 //   setCount(count + 1)
 //   console.log(count); // will log old value, not update
 // }
+
+
+// batching of updates
+
+// react batches of multiple state bupdates in the same event to improve
+// performance (avoids unnecessary re-renders).
+
+
+
+// Here, count will increase will increase only by 1. not 3 (becuse react batches them, and each line uses old count)
