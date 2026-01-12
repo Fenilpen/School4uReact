@@ -139,6 +139,9 @@ export default App
 //   setCount(count + 1)
 //   setCount(count + 1)
 // }
-
-
 // Here, count will increase will increase only by 1. not 3 (becuse react batches them, and each line uses old count)
+
+// how react schedules it?
+
+// when you call setState:
+// react adds the upgrade to an internal queue.
