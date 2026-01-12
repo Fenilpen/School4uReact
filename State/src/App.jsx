@@ -145,3 +145,5 @@ export default App
 
 // when you call setState:
 // react adds the upgrade to an internal queue.
+// react wailts until the current event handler finishes (so it can batch multiple updates).
+// then react decides when to re-render the component.
