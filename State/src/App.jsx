@@ -141,6 +141,14 @@ export default App
 // }
 // Here, count will increase will increase only by 1. not 3 (becuse react batches them, and each line uses old count)
 
+// the correct way to update this
+
+// setCount((prev) => prev + 1)
+// setCount((prev) => prev + 1)
+// setCount((prev) => prev + 1)
+// setCount((prev) => prev + 1)
+
+
 // how react schedules it?
 
 // when you call setState:
