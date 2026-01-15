@@ -5,9 +5,10 @@ function Card() {
   const [counts,setCounts] = useState(0)
   
   function increment (){
-   setCounts((prev)=>
-      prev + 1
-    )
+   setCounts((prev)=>prev + 1)
+   setCounts((prev)=>prev + 1)
+   setCounts((prev)=>prev + 1)
+   setCounts((prev)=>prev + 1)
   }
 
   useEffect(()=>{
