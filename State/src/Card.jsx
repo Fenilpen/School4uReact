@@ -5,6 +5,7 @@ function Card() {
   const [counts,setCounts] = useState(0)
   
   function increment (){
+  // functional updates works on current state value.
    setCounts((prev)=>prev + 1)
    setCounts((prev)=>prev + 1)
    setCounts((prev)=>prev + 1)
