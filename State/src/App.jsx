@@ -157,3 +157,5 @@ export default App
 // then react decides when to re-render the component.
 // during render, react reconciles (diffs) the new virtual DOM with the old 
 // updates only what changed.
+
+// why we cant use setCount(count++)?
