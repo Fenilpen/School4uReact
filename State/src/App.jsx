@@ -159,3 +159,4 @@ export default App
 // updates only what changed.
 
 // why we cant use setCount(count++)?
+// we cant use count++ beacause it is like assign value not adding in const use cant do this
