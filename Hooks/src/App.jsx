@@ -17,3 +17,10 @@ export default App
 // they were introduced in react 16.8 to let us use state and lifecycle methods inside
 // functional components - without writing a class
 
+// before hooks
+
+// functional components were stateless
+// we used class components for state & lifecycle.
+
+// after hooks:
+// functional components can now manage state, handle side effects and reuse components easily.
