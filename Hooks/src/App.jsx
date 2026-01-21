@@ -29,3 +29,6 @@ export default App
 // a hook is a special function provided by react.
 // it lets you "hook into" React features like state, lifecycle, context, refs, etc.
 // hooks must start with "use" (eg, usestate,useeffect)
+
+// rules of hooks:
+// only call hooks at the top level of your component(not inside loops/conditions)
