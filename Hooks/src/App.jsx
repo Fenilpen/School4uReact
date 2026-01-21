@@ -24,3 +24,8 @@ export default App
 
 // after hooks:
 // functional components can now manage state, handle side effects and reuse components easily.
+
+// hooks?
+// a hook is a special function provided by react.
+// it lets you "hook into" React features like state, lifecycle, context, refs, etc.
+// hooks must start with "use" (eg, usestate,useeffect)
