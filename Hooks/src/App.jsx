@@ -32,3 +32,7 @@ export default App
 
 // rules of hooks:
 // only call hooks at the top level of your component(not inside loops/conditions)
+
+// only call hooks from:
+// react function components
+// custom hooks
