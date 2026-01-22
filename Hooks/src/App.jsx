@@ -36,3 +36,14 @@ export default App
 // only call hooks from:
 // react function components
 // custom hooks
+
+// commonly used built-in hooks
+
+// use sate
+// useEffect
+// useRef
+// useReducer
+// useMemo
+// useCallback
+// useLayoutEffect
+// useContext
