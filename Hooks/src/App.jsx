@@ -52,3 +52,8 @@ export default App
 // useEffect Hook
 // if usestate is for managing state then usestate is for managing side effects in react
 // a side effect means any code that affects something outside reacts render cycle.
+// examples
+// fetching data from an API
+// setting up event listeners (like resize,scroll)
+// working with timers (setInterval,setTimeout)
+// updating the browser's DOM or title manually
