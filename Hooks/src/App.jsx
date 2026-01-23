@@ -50,3 +50,5 @@ export default App
 
 
 // useEffect Hook
+// if usestate is for managing state then usestate is for managing side effects in react
+// a side effect means any code that affects something outside reacts render cycle.
