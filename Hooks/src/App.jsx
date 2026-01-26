@@ -15,6 +15,8 @@ function App() {
      <button onClick={()=>{
       setCount(count + 1)
      }}>Increment</button>
+
+     <h1>{decVal}</h1>
     </>
   )
 }
