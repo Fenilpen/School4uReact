@@ -7,7 +7,7 @@ function App() {
  
  useEffect(()=>{
     console.log("hi in useEffect") 
-  },[])
+  },[count,decVal])
 
   return (
     <>
