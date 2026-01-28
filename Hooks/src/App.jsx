@@ -77,5 +77,8 @@ export default App
 // useEffect is a react hook that lets us perform side effects in functional components.
 
 // useEffect(()=>{
-  
+  // side effect code here
+//   return () => {
+//   cleanup code (optional)
+//   }
 // }) [(dependencies)];
