@@ -75,3 +75,7 @@ export default App
 
 // normaly react components should only return UI but side effects let us interact with the outside world.
 // useEffect is a react hook that lets us perform side effects in functional components.
+
+// useEffect(()=>{
+  
+// }) [(dependencies)];
