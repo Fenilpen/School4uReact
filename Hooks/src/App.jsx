@@ -71,3 +71,7 @@ export default App
 // setting up event listeners (like resize,scroll)
 // working with timers (setInterval,setTimeout)
 // updating the browser's DOM or title manually
+
+
+// normaly react components should only return UI but side effects let us interact with the outside world.
+// useEffect is a react hook that lets us perform side effects in functional components.
