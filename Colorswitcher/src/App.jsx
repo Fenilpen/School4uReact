@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Button from './Components/Button'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <h1 className='bg-red-400'>Color switcher</h1>
+      <Button/>
     </>
   )
 }
