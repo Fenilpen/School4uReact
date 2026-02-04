@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <h1 className='bg-red-400'>Color switcher</h1>
-      <Button>children</Button>
+      <Button>Hello</Button>
     </>
   )
 }
