@@ -7,6 +7,12 @@ function App() {
 
   return (
     <>
+      {
+      colors.map(function(item){
+        console.log(item);
+        
+      })
+    }
       <h1>Color switcher</h1>
       <Button className="bg-[red]" >Hello</Button>
     </>
