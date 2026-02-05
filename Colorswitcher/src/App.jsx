@@ -14,7 +14,7 @@ function App() {
       })
     }
       <h1>Color switcher</h1>
-      <Button className="bg-[red]" >Hello</Button>
+      <Button color={""}>Hello</Button>
     </>
   )
 }
