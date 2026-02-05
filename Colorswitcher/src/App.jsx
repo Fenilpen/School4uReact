@@ -7,14 +7,12 @@ function App() {
 
   return (
     <>
-      {
+    <h1>Color switcher</h1>
+    {
       colors.map(function(item){
-        console.log(item);
-        
+       return <Button key={item} color={""}>Hello</Button>
       })
     }
-      <h1>Color switcher</h1>
-      <Button color={""}>Hello</Button>
     </>
   )
 }
