@@ -3,7 +3,7 @@ import './App.css'
 import Button from './Components/Button'
 
 function App() {
-  const colors = ["pink","blue","red"]
+  const colors = ["pink","blue","red","lightseagreen","tomato","lightcoral"]
 
   return (
     <>
