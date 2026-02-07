@@ -10,7 +10,7 @@ function App() {
     <h1>Color switcher</h1>
     {
       colors.map(function(item){
-       return <Button key={item} color={""}>{item}</Button>
+       return (<Button key={item} color={""}>{item}</Button>)
       })
     }
     </>
