@@ -2,7 +2,7 @@ import React from 'react'
 
 function Button({color,children}) {
   return (
-      <button>{children}</button>
+      <button className={`bg-[${color}]`}>{children}</button>
   )
 }
 
