@@ -11,7 +11,7 @@ function App() {
     <>
     <h1>Color switcher</h1>
     
-    <divclassName='flex gap-4'>
+    <div className='flex gap-4 my-5'>
     {
       colors.map(function(item){
        return (<Button key={item} color={item}>{item}</Button>)
