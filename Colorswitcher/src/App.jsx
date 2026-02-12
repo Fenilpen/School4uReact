@@ -10,11 +10,13 @@ function App() {
   return (
     <>
     <h1>Color switcher</h1>
+      <div>
     {
       colors.map(function(item){
        return (<Button key={item} color={item}>{item}</Button>)
       })
     }
+      </div>
       <ColorBox/>
     </>
   )
