@@ -6,7 +6,9 @@ import ColorBox from './Components/ColorBox'
 
 function App() {
   const colors = ["pink","blue","red","lightseagreen","tomato","lightcoral"]
-
+  
+  const [selectedColor,setSelectedColor] = useState('transperent')
+  
   return (
     <>
     <h1>Color switcher</h1>
