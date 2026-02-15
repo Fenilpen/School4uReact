@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ColorBox = () => {
+const ColorBox = ({color}) => {
   return (
     <div 
     style={
