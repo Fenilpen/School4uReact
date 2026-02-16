@@ -1,8 +1,11 @@
 import React from 'react'
 
 function Button({color,children}) {
+  function setColor(){
+    
+  }
   return (
-      <button style={{
+      <button onClick={setColor} style={{
         backgroundColor: color,
       }}>{children}</button>
   )
