@@ -16,7 +16,7 @@ function App() {
     <div className='flex gap-4 my-7'>
     {
       colors.map(function(item){
-       return (<Button key={item} color={item}>{item}</Button>)
+       return (<Button key={item} color={item} setSelectedColor={setSelectedColor}>{item}</Button>)
       })
     }
       </div>
