@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Button({color,children}) {
+function Button({color,setSelectedColor,children}) {
   function setColor(){
     
   }
