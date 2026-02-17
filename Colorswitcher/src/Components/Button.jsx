@@ -2,7 +2,7 @@ import React from 'react'
 
 function Button({color,setSelectedColor,children}) {
   function setColor(){
-    
+    setSelectedColor(color)
   }
   return (
       <button onClick={setColor} style={{
