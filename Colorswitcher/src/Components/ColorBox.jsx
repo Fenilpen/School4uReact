@@ -4,7 +4,7 @@ const ColorBox = ({color}) => {
   return (
     <div 
     style={
-      {backgroundcolor: color}
+      {backgroundColor: color}
     }
     className='m-auto w-[300px] h-[300px] bg-[red]  rounded-2xl font-extrabold text-center content-center border-2'>
       {color.toUpperCase()}
