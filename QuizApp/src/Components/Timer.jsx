@@ -7,7 +7,7 @@ function Timer() {
   useEffect(()=>{
 
     setInterval(() => {
-
+    let intervalId =  setLeftTime(prev => prev - 1)
     },1000)
     
   },[])
