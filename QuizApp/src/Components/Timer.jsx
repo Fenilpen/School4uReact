@@ -7,7 +7,11 @@ function Timer() {
   useEffect(()=>{
 
     setInterval(() => {
-    let intervalId =  setLeftTime(prev => prev - 1)
+    let intervalId =  setLeftTime(prev => {
+      if(prev <= 0 ){
+        clearInterval(intervalId)
+        return
+      })
     },1000)
 
     return () => {
