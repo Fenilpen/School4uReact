@@ -10,7 +10,7 @@ function Timer() {
     let intervalId =  setLeftTime(prev => {
       if(prev <= 0 ){
         clearInterval(intervalId)
-        return
+        return 0
       }
       return prev - 1
       })
