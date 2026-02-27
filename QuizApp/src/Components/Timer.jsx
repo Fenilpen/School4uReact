@@ -11,6 +11,8 @@ function Timer() {
       if(prev <= 0 ){
         clearInterval(intervalId)
         return
+      }
+      return prev - 1
       })
     },1000)
 
