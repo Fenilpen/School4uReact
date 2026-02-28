@@ -21,6 +21,10 @@ function Timer() {
     }
     
   },[])
+
+  useEffect(()=>{
+     
+  },[])
   
   return (
     <div>
