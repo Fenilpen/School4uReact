@@ -24,7 +24,7 @@ function Timer() {
 
   useEffect(()=>{
      
-  },[])
+  },[leftTime])
   
   return (
     <div>
