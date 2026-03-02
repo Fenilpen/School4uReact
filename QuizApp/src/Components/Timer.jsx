@@ -23,7 +23,7 @@ function Timer() {
   },[])
 
   useEffect(()=>{
-   console.log(`${Math.floor(LeftTime/60)} : ${leftTime%60}`);
+    console.log(`${(Math.floor(leftTime/60)).toString().padStart(2,0)} : ${(leftTime%60).toString().padStart(2,0)}`);
   },[leftTime])
   
   return (
