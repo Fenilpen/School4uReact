@@ -31,7 +31,7 @@ function Timer() {
   
   return (
     <div>
-      Time Left: {leftTime}
+      Time Left: {displayTime}
     </div>
   )
 }
