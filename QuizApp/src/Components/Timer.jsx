@@ -23,7 +23,9 @@ function Timer() {
   },[])
 
   useEffect(()=>{
-    console.log(`${(Math.floor(leftTime/60)).toString().padStart(2,0)} : ${(leftTime%60).toString().padStart(2,0)}`);
+    let formatedTime = (`${(Math.floor(leftTime/60)).toString().padStart(2,0)} : 
+    ${(leftTime%60).toString().padStart(2,0)}`);
+    setDispalyTime(formatedTime)
   },[leftTime])
   
   return (
