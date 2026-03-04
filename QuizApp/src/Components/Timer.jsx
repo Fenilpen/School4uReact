@@ -4,7 +4,8 @@ function Timer() {
   
   const [leftTime,setLeftTime] = useState(5)
   const [displayTime, setDispalyTime] = useState('')
-  
+
+  // left time logic
   useEffect(()=>{
 
     setInterval(() => {
@@ -23,6 +24,7 @@ function Timer() {
     
   },[])
 
+  // // time format logic
   useEffect(()=>{
     let formatedTime = (`${(Math.floor(leftTime/60)).toString().padStart(2,0)} : 
     ${(leftTime%60).toString().padStart(2,0)}`);
