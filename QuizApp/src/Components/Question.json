@@ -4,3 +4,13 @@
         "options": ["java","c","python","javascript"],
         "answer": "javascript"
     },
+    {
+        "qustion": "what does css stands for?",
+        "options": [
+            "central style sheets",
+            "cascading style sheets",
+            "cascading simple sheets",
+            "cars suvs sailboats"
+        ],
+        "answer": "cascading style sheets"
+     },
