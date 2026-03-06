@@ -14,3 +14,9 @@
         ],
         "answer": "cascading style sheets"
      },
+     {
+        "question": "what year was javascript launched",
+        "options": ["1996","1995","1994","none of above"],
+        "answer": "1995"
+    }
+]
