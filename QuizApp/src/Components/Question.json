@@ -1,1 +1,6 @@
-//
+[
+    {
+        "Question": "which language runs in a web browser?",
+        "options": ["java","c","python","javascript"],
+        "answer": "javascript"
+    },
