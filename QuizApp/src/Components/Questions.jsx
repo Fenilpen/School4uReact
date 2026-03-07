@@ -6,7 +6,7 @@ function Questions() {
   
   return (
     <div>
-      Question
+      {questions[currentIndex]}
     </div>
   )
 }
