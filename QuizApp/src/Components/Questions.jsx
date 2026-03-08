@@ -7,6 +7,11 @@ function Questions() {
   return (
     <div>
       <h2>{questions[currentIndex].Question} </h2>
+      {
+        questions[currentIndex].options.map((options)=>{
+          
+        })
+      }
     </div>
   )
 }
