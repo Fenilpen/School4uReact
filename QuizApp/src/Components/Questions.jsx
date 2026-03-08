@@ -9,7 +9,9 @@ function Questions() {
       <h2>{questions[currentIndex].Question} </h2>
       {
         questions[currentIndex].options.map((options)=>{
-          
+          return <button>
+            {options}
+          </button>
         })
       }
     </div>
