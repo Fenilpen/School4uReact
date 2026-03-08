@@ -6,7 +6,7 @@ function Questions() {
   
   return (
     <div>
-      {questions[currentIndex]}
+      <h2>{questions[currentIndex].Question} </h2>
     </div>
   )
 }
