@@ -7,6 +7,7 @@ function Questions() {
   return (
     <div>
       <h2>{questions[currentIndex].Question} </h2>
+      <div <div className='flex flex-col gap-3'>>
       {
         questions[currentIndex].options.map((options)=>{
           return <button>
@@ -14,6 +15,7 @@ function Questions() {
           </button>
         })
       }
+      </div>
     </div>
   )
 }
