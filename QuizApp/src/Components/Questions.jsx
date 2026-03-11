@@ -3,6 +3,7 @@ import questions from "./Question.json"
 
 function Questions() {
   const [currentIndex, setIndex] = useState(0)
+  const [score,setScore] = useState(0)
   
   return (
     <div>
