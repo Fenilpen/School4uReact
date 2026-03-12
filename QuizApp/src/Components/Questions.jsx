@@ -6,7 +6,7 @@ function Questions() {
   const [score,setScore] = useState(0)
 
   const handleOptionClick = (selectedOption) => {
-
+  if(selectedOption === questions[currentIndex].answer)
   }
   
   return (
