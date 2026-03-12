@@ -11,7 +11,7 @@ function Questions() {
       <div <div className='flex flex-col gap-3'>>
       {
         questions[currentIndex].options.map((options)=>{
-          return <button key={options} onClick={()=>handleOptionClick}>
+          return <button key={options} onClick={()=>handleOptionClick(options)}>
             {options}
           </button>
         })
