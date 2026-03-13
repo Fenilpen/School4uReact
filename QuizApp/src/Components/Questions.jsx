@@ -7,6 +7,9 @@ function Questions() {
 
   const handleOptionClick = (selectedOption) => {
   if(selectedOption === questions[currentIndex].answer)
+  {
+      setScore(prev => prev + 1)  
+  }
   }
   
   return (
