@@ -10,7 +10,9 @@ function Questions() {
   {
       setScore(prev => prev + 1)  
   }
-    setCurrentIndex(prev = prev + 1)
+   if(currentIndex < questions.length - 1){
+       setCurrentIndex(prev = prev + 1)
+    }
   }
   
   return (
