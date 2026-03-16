@@ -9,8 +9,12 @@ function App() {
   return (
     <>
     <Timer/>
-    
-    <Questions/>
+      
+      {!isOver ? (
+        <Questions/>
+      ):(
+        <Result/>
+      )}
     </>
   )
 }
