@@ -4,7 +4,7 @@ import Timer from './Components/Timer'
 import Questions from './Components/Questions'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [isOver,setIsOver] = useState(false)
 
   return (
     <>
