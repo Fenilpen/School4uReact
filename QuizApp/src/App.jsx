@@ -12,9 +12,9 @@ function App() {
     <Timer/>
       
       {!isOver ? (
-        <Questions/>
+        <Result setIsOver={setIsOver}/>
       ):(
-        <Result/>
+        <Questions/>
       )}
     </>
   )
