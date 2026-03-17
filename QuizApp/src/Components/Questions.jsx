@@ -1,7 +1,7 @@
 import React from 'react'
 import questions from "./Question.json"
 
-function Questions() {
+function Questions({setIsOver={setIsOver}}) {
   const [currentIndex, setIndex] = useState(0)
   const [score,setScore] = useState(0)
 
