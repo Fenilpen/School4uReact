@@ -12,7 +12,8 @@ function Questions({setIsOver}) {
   }
    if(currentIndex < questions.length - 1){
        setCurrentIndex(prev = prev + 1)
-    }
+    }else{
+     setIsOver()
   }
   
   return (
