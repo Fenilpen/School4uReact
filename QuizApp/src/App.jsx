@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-    <Timer/>
+    <Timer setIsOver={setIsOver} />
       
       {!isOver ? (
         <Result/>
