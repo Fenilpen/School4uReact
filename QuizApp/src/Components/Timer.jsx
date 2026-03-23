@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Timer() {
+function Timer({setIsOver}) {
   
   const [leftTime,setLeftTime] = useState(5)
   const [displayTime, setDispalyTime] = useState('')
