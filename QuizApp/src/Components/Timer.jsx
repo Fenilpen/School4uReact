@@ -12,7 +12,7 @@ function Timer({setIsOver}) {
     let intervalId =  setLeftTime(prev => {
       if(prev <= 0 ){
         clearInterval(intervalId)
-        setIsOver()
+        setIsOver(true)
         return 0
       }
       return prev - 1
