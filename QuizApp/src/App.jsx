@@ -6,6 +6,7 @@ import Result from './Components/Result'
 
 function App() {
   const [isOver,setIsOver] = useState(false)
+  const [score,setScore] = useState(0)
 
   return (
     <>
