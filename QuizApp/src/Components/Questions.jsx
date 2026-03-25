@@ -1,7 +1,7 @@
 import React from 'react'
 import questions from "./Question.json"
 
-function Questions({setIsOver}) {
+function Questions({setIsOver,setScore}) {
   const [currentIndex, setIndex] = useState(0)
 
   const handleOptionClick = (selectedOption) => {
