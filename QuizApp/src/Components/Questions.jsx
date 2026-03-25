@@ -3,7 +3,6 @@ import questions from "./Question.json"
 
 function Questions({setIsOver}) {
   const [currentIndex, setIndex] = useState(0)
-  const [score,setScore] = useState(0)
 
   const handleOptionClick = (selectedOption) => {
   if(selectedOption === questions[currentIndex].answer)
