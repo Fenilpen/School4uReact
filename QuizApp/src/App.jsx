@@ -15,7 +15,7 @@ function App() {
       {!isOver ? (
         <Result/>
       ):(
-        <Questions setIsOver={setIsOver}/>
+        <Questions setIsOver={setIsOver} setScore={setScore}/>
       )}
     </>
   )
