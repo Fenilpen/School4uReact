@@ -13,7 +13,7 @@ function App() {
     <Timer setIsOver={setIsOver} />
       
       {!isOver ? (
-        <Result/>
+        <Result score={score}/>
       ):(
         <Questions setIsOver={setIsOver} setScore={setScore}/>
       )}
