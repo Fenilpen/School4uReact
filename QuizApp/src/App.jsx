@@ -10,12 +10,14 @@ function App() {
 
   return (
     <>
-    <Timer setIsOver={setIsOver} />
       
       {!isOver ? (
         <Result score={score}/>
       ):(
-        <Questions setIsOver={setIsOver} setScore={setScore}/>
+      <>
+      <Timer setIsOver={setIsOver}/>
+      <Questions setIsOver={setIsOver} setScore={setScore}/>
+      </>
       )}
     </>
   )
