@@ -16,6 +16,8 @@ function App() {
     <input className='border border-white' type='text' onChange={handleInputBox} placeholder='Enter name'/>
     
     <form action="">
+    <input type='text' placeholder='Enter email'/>
+    
     </form>  
     </>
   )
