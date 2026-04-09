@@ -17,7 +17,7 @@ function App() {
     
     <form action="">
     <input type='text' placeholder='Enter email'/>
-    
+    <button></button>
     </form>  
     </>
   )
