@@ -19,6 +19,8 @@ function App() {
     <input type='text' placeholder='Enteremail'/>
     <button> Submit </button>
     </form>   */}
+
+      <button>Click</button>
     </>
   )
 }
