@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 function App() {
   
-  function handleInputBox (){
+  function testingFunction (){
 
   }
   
@@ -20,7 +20,7 @@ function App() {
     <button> Submit </button>
     </form>   */}
 
-      <button>Click</button>
+      <button onCLick={testingFunction}>Click</button>
     </>
   )
 }
