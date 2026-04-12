@@ -8,7 +8,7 @@ function App() {
   
   return (
     <>
-    <h1 className='bg-red-500'>Hello Universe</h1>
+    {/* <h1 className='bg-red-500'>Hello Universe</h1>
     <button 
       onClick={function greet(){
       alert("Hello Fenil Patel")}}> Click me<button>
@@ -18,7 +18,7 @@ function App() {
     <form onSubmit={handleInputBox} action="">
     <input type='text' placeholder='Enteremail'/>
     <button> Submit </button>
-    </form>  
+    </form>   */}
     </>
   )
 }
