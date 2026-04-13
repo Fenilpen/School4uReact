@@ -3,7 +3,7 @@ import { useState } from 'react'
 function App() {
   
   function testing (e){
-  console.log(e)
+  console.log(e.target)
   }
   
   return (
