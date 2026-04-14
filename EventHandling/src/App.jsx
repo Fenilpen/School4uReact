@@ -20,7 +20,7 @@ function App() {
     <button> Submit </button>
     </form>   */}
 
-      <button onCLick={testing}>Click</button>
+    {/* <button onCLick={testing}>Click</button> */}
     </>
   )
 }
