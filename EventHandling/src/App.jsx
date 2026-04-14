@@ -21,6 +21,7 @@ function App() {
     </form>   */}
 
     {/* <button onCLick={testing}>Click</button> */}
+    <input type='text' placeholder='Enter name'/>
     </>
   )
 }
