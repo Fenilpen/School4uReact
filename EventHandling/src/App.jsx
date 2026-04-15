@@ -2,8 +2,8 @@ import { useState } from 'react'
 
 function App() {
   
-  function testing (e){
-  console.log(e.target)
+  function testing (event){
+  console.log(event.target)
   }
   
   return (
