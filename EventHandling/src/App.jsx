@@ -44,3 +44,5 @@ export default App
 //     console.log(e.target.value); // e.target is null
 //   }, 1000);
 // }
+
+// in react 16 and later versions this problem is no more
