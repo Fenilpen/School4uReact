@@ -27,3 +27,14 @@ function App() {
 }
 
 export default App
+
+// Synthetic Event
+// Event handling in react follows a similar pattern to standerd javascript event handling but with
+// some key diffrences, such as using synthetic events for cross-browser compatibility and providing consistent event handling
+// across diffrent events and browsers
+
+// when you handle events in react, like clicking a button or typing in an input box, react wraps the native 
+// browser events in something called synthetic event. this synthatic event ensures consistent event handling
+// across different browser.
+
+
