@@ -37,4 +37,10 @@ export default App
 // browser events in something called synthetic event. this synthatic event ensures consistent event handling
 // across different browser.
 
+// but after event handler runs, react pools the event for performance (so e.target may become null in async code).
 
+// function handleChange(e){
+//   setTimeout(() => {
+//     console.log(e.target.value); // e.target is null
+//   }, 1000);
+// }
