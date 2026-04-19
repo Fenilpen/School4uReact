@@ -4,7 +4,10 @@ import './App.css'
 function App() {
   
   function testing (event){
-  console.log(event.target.value)
+  // console.log(event.target.value)
+    setTimeout(()=>{
+      console.log(event.target.value)
+    },1000)
   }
   
   return (
