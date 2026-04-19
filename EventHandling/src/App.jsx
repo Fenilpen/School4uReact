@@ -9,6 +9,10 @@ function App() {
   //     console.log(event.target.value)
   //   },1000)
   // }
+
+    function testing(){
+    
+  }
   
   return (
     <>
