@@ -5,10 +5,10 @@ function App() {
   
   function testing (event){
   // console.log(event.target.value)
-    setTimeout(()=>{
-      console.log(event.target.value)
-    },1000)
-  }
+  //   setTimeout(()=>{
+  //     console.log(event.target.value)
+  //   },1000)
+  // }
   
   return (
     <>
