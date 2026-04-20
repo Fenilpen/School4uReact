@@ -17,9 +17,10 @@ function App() {
   return (
     <>
 
-    <form>
-          
-    </form>
+<form>
+    <input type='text' placeholder='enter name' />
+    <button type="submit"></button>
+</form>
       
     <button onClick={()=>{testing('XYZ')}}>Click</button>
     {/* <h1 className='bg-red-500'>Hello Universe</h1>
