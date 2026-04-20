@@ -10,12 +10,13 @@ function App() {
   //   },1000)
   // }
 
-    function testing(){
+  function testing(name){
     
   }
   
   return (
     <>
+    <button onClick={()=>{testing('XYZ')}}>Click</button>
     {/* <h1 className='bg-red-500'>Hello Universe</h1>
     <button 
       onClick={function greet(){
