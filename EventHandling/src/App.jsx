@@ -11,7 +11,9 @@ function App() {
   // }
 
   function testing(name){
-    
+  }
+
+  function submitHandler(){
   }
   
   return (
