@@ -17,7 +17,7 @@ function App() {
   return (
     <>
 
-<form>
+<form onSubmit={} action="" >
     <input type='text' placeholder='enter name' />
     <button type="submit"></button>
 </form>
