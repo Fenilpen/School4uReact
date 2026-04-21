@@ -19,7 +19,7 @@ function App() {
   return (
     <>
 
-<form onSubmit={} action="" >
+<form onSubmit={submitHandler} action="" >
     <input type='text' placeholder='enter name' />
     <button type="submit"></button>
 </form>
