@@ -10,8 +10,8 @@ function App() {
   //   },1000)
   // }
 
-  function testing(name){
-  }
+  // function testing(name){
+  // }
 
   function submitHandler(){
   }
@@ -21,7 +21,7 @@ function App() {
 
 <form onSubmit={submitHandler} action="" >
     <input type='text' placeholder='enter name' />
-    <button type="submit"></button>
+    <button type="submit">Click</button>
 </form>
       
     <button onClick={()=>{testing('XYZ')}}>Click</button>
