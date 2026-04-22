@@ -20,10 +20,10 @@ function App() {
   return (
     <>
 
-<form onSubmit={submitHandler} action="" >
+{/* <form onSubmit={submitHandler} action="" >
     <input type='text' placeholder='enter name' />
     <button type="submit">Click</button>
-</form>
+</form> */}
       
     <button onClick={()=>{testing('XYZ')}}>Click</button>
     {/* <h1 className='bg-red-500'>Hello Universe</h1>
