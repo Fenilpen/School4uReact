@@ -13,7 +13,8 @@ function App() {
   // function testing(name){
   // }
 
-  function submitHandler(){
+  function submitHandler(event){
+    event.preventDefault()
   }
   
   return (
