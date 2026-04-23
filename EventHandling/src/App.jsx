@@ -18,7 +18,7 @@ function App() {
   }
 
   function parentHandler(){
-    
+    <div> onClick </div>
   }
   
   return (
