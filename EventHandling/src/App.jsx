@@ -16,6 +16,10 @@ function App() {
   function submitHandler(event){
     event.preventDefault()
   }
+
+  function parentHandler(){
+    
+  }
   
   return (
     <>
