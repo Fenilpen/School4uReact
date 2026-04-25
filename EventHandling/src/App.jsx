@@ -27,7 +27,13 @@ function App() {
   
   return (
     <>
-     
+      
+     <div onClick={parentHandler}>
+        parent click
+        <button onClick={childHandler}>
+         child click 
+        </button>
+      </div>
       
 {/* <form onSubmit={submitHandler} action="" >
     <input type='text' placeholder='enter name' />
