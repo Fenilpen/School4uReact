@@ -28,7 +28,7 @@ function App() {
   return (
     <>
       
-     <div onClick={parentHandler}>
+     <div className='bg-red-500' onClick={parentHandler}>
         parent click
         <button onClick={childHandler}>
          child click 
