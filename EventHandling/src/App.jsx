@@ -30,7 +30,7 @@ function App() {
       
      <div className='bg-red-500' onClick={parentHandler}>
         parent click
-        <button onClick={(e)=>{childHandler(e)}}>
+        <button onClick={(e)=>{childHandler(e, "example")}}>
          child click 
         </button>
       </div>
