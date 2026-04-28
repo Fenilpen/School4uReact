@@ -21,7 +21,7 @@ function App() {
     <div> onClick </div>
   }
 
-  function childHandler(e) {
+  function childHandler(e, name) {
     e.stopPropagation()
   }
   
