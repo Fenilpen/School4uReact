@@ -10,7 +10,7 @@ function App() {
 
   return(
   <div>
-    <h1>welome back!! you are logged in</h1>
+    <h1>component A</h1>
   </div>
 
 ) }
