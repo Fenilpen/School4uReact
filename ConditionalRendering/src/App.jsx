@@ -6,7 +6,7 @@ function App() {
   // const isLogin = true  
   const option = "a"
 
-  if(isLogin){
+  if(option === "a"){
 
   return(
   <div>
