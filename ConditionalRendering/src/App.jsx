@@ -27,6 +27,14 @@ if(option === "c"){
   </div>
 
 ) }
+
+if(option === "d"){
+  return(
+  <div>
+    <h1>component D</h1>
+  </div>
+
+) }
   
 return(
   <h1>hello please login</h1>
