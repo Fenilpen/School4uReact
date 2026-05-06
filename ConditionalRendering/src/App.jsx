@@ -40,7 +40,7 @@ if(option === "d"){
   
 
 return(
-  <h1>hello please login</h1>
+  <h2>other component</h2>
 )
   
 }
