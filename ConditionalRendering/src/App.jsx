@@ -5,7 +5,9 @@ function App() {
 const isLogin = true
 
 return(
-  <div>App</div>
+  <div>
+   {isLogin ? <h1>LoggedIn</h1> : <h1>Please Login</h1> }
+  </div>
 )
 
 export default App
