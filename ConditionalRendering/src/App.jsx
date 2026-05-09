@@ -7,7 +7,7 @@ const option = "a";
   
 return(
   <div>
-   {option === "a" ? <h1>LoggedIn</h1> : <h1>Please Login</h1> }
+   {option === "a" ? <h1>Component</h1> : <h1>other components</h1> }
   </div>
 )
 
