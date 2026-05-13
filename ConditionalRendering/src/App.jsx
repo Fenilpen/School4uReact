@@ -6,11 +6,16 @@ const App = () => {
   
   return (
     <div>
-      {
+      /* {
         hasMessege ? 
         <h1>{hasMessege}</h1> : 
         null
+      } */
+
+      {
+        hasMessege && <h1></h1>
       }
+      
     </div>
   )
 }
