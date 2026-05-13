@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
 
-  const hasMessege = "hi india how are you"
+  const hasMessege = 0
   
   return (
     <div>
