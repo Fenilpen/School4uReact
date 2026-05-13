@@ -7,8 +7,9 @@ const App = () => {
   return (
     <div>
       {
-        hasMessege ? hasMessege : "messege is            
-        not there"
+        hasMessege ? 
+        <h1>{hasMessege}</h1> : 
+        null
       }
     </div>
   )
