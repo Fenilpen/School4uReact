@@ -13,7 +13,7 @@ const App = () => {
       } */
 
       {
-        hasMessege && <h1></h1>
+        hasMessege && <h1>{hasMessege}</h1>
       }
       
     </div>
