@@ -22,5 +22,9 @@ const App = () => {
 
 // short circuting
 
-
 export default App
+
+
+// conditional rendering with variables
+// store JSX in a variable
+// helps keep return statements clean and readable
