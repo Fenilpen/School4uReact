@@ -20,4 +20,7 @@ const App = () => {
   )
 }
 
+// short circuting
+
+
 export default App
