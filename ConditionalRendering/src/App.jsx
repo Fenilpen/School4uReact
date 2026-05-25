@@ -15,6 +15,8 @@ const content = <h1>hello how are you</h1>
         content = <ComponentB/>
     }else if (option === "c") {
         content = <ComponentC/>
+    }else {
+        content = <h1>Other component</h1>
     }
   
     return(
