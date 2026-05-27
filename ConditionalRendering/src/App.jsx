@@ -27,3 +27,6 @@ const content = <h1>hello how are you</h1>
 }
 
 export default App
+
+// store JSX in a variable
+// helps keep return statement clean and readable
