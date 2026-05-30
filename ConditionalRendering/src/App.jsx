@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
     
-    const color = "red"
+    const [toggle,setToggle] = useState(false);
 
     return (
         
