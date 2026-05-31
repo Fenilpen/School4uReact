@@ -18,7 +18,7 @@ const App = () => {
         }
 
         <button onClick={()=>{
-          setToggle(!setToggle)
+          setToggle(!Toggle)
     }}></button>
         
     </>
