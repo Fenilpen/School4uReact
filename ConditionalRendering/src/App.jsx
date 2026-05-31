@@ -16,6 +16,11 @@ const App = () => {
                 <h1>Click on the toggle</h1>
             )
         }
+
+        <button onClick={()=>{
+      
+    }}></button>
+        
     </>
         
         )
