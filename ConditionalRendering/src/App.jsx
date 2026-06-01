@@ -13,7 +13,7 @@ const App = () => {
             toggle ? (
                 <h1>this is the message</h1>
             ) : (
-                <h1>Click on the toggle</h1>
+                <h1>toggle is false</h1>
             )
         }
 
