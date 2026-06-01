@@ -3,7 +3,8 @@ import React from 'react'
 const App = () => {
     
     const [toggle,setToggle] = useState(false);
-
+    if(!toggle) return null;
+    
     return (
         
     <>
