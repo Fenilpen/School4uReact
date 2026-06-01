@@ -27,3 +27,6 @@ const App = () => {
 }
 
 export default App
+
+// returning null means rendering nothing
+// commom in modal or popup components
