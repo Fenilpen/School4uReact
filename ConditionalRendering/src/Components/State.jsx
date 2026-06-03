@@ -1,6 +1,6 @@
 import React from 'react'
 
-const App = () => {
+const State = () => {
 
     const [toggle,setToggle] = useState(false);
     if(!toggle) return null;
@@ -27,7 +27,7 @@ const App = () => {
         )
 }
 
-export default App
+export default State
 
 // returning null means rendering nothing
 // commom in modal or popup components
