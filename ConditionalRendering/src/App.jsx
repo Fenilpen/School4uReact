@@ -6,7 +6,8 @@ import ComponentC from './Components'
 const App = () => {
 
   const Component = ComponentA
-    
+   const Component = option === "a" ? ComponentA : ComponentB
+  
     return (
         
     )
