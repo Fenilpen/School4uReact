@@ -1,13 +1,15 @@
 import React from 'react'
-
-const App = () => {
-
 import ComponentA from './Components'
 import ComponentB from './Components'
 import ComponentC from './Components'
 
+const App = () => {
+
+  const Component = ComponentA
     
-    return ()
+    return (
+        
+    )
 }
 
 export default App
