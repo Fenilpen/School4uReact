@@ -4,7 +4,9 @@ function App () {
   const option = "a"
 
   switch(option){
-
+   
+    case "a":
+      return <ComponentA/>
   }
   
 )
