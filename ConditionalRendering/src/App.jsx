@@ -1,11 +1,11 @@
 import { useState } from 'react'
 
 function App () {
-  
-   return (
-   <>
-   
-   </>
+  const option = "a"
+
+  switch(option){
+
+  }
   
 )
 
