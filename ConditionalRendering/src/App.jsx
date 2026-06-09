@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import  ComponentA from './Components/ComponentA'
+import  ComponentB from './Components/ComponentB'
+import  ComponentC from './Components/ComponentC'
 
 function App () {
   const option = "a"
