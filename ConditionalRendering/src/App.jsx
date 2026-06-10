@@ -14,6 +14,8 @@ function App () {
       return <ComponentB/>
     case "c":
       return <ComponentC/> 
+    default :
+      return null  
   }
   
 )
