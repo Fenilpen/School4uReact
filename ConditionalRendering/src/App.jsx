@@ -12,6 +12,8 @@ function App () {
       return <ComponentA/>
     case "b":
       return <ComponentB/>
+    case "c":
+      return <ComponentC/> 
   }
   
 )
