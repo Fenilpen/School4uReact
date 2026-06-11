@@ -15,7 +15,7 @@ function App () {
     case "c":
       return <ComponentC/> 
     default :
-      return null  
+      return <h1> other Component </h1>
   }
   
 )
