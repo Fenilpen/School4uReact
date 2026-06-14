@@ -10,9 +10,7 @@ const App = () => {
   }
   
   return (
-    <div>
-      
-    </div>
+    status[statusOption]
   )
 }
 
