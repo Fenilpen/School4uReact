@@ -11,7 +11,9 @@ const App = () => {
   }
   
   return (
-    status[statusOption]
+    <>
+    {status[statusOption]}
+    </>
   )
 }
 
