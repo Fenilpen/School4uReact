@@ -18,7 +18,9 @@ const App = () => {
       setStatusOption("loading")
     }}>Loading</button>
       
-    <button>Success</button>
+    <button onClick={()=>{
+      setStatusOption("Success")
+    }}>Success</button>
       
     <button>Error</button>
     </>
