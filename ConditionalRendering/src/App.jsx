@@ -15,6 +15,7 @@ const App = () => {
     {status[statusOption]}
     <button>Loading</button>
     <button>Success</button>
+    <button>Error</button>
     </>
   )
 }
