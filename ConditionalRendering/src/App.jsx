@@ -13,8 +13,13 @@ const App = () => {
   return (
     <>
     {status[statusOption]}
-    <button>Loading</button>
+      
+    <button onClick={()=>{
+      setStatusOption("loading")
+    }}>Loading</button>
+      
     <button>Success</button>
+      
     <button>Error</button>
     </>
   )
