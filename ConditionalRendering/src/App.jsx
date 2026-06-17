@@ -22,7 +22,9 @@ const App = () => {
       setStatusOption("Success")
     }}>Success</button>
       
-    <button>Error</button>
+    <button> onClick={()=>{
+      setStatusOption("Error")
+    }}Error</button>
     </>
   )
 }
