@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => {
 
-  const [statusOption,setStatusOption] = useState("loading")
+  const [statusOption,setStatusOption] = useState ("loading")
   
   const status = {
     loading: <h1>Loading.....</h1>,
