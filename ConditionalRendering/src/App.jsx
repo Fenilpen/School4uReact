@@ -32,3 +32,11 @@ const App = () => {
 export default App
 
 // for even more elegant and scalable conditional rendering - you can use object maps to store your patterns.
+// for even more elegant and scalable conditional rendering - you can use object maps to store your patterns.
+// common beginner mistakes
+
+// writing if inside JSX -> use ternary or logical AND.
+// nesting too many ternaries -> makes code unreadable.
+// forgetting to handle "else" case -> empty UI.
+// using == insted of === -> unexpected behaviour.
+// forgetting return null -> causes unnecessary rendering
