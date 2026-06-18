@@ -30,3 +30,5 @@ const App = () => {
 }
 
 export default App
+
+// for even more elegant and scalable conditional rendering - you can use object maps to store your patterns.
