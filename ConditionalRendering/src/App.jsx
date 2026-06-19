@@ -45,3 +45,4 @@ export default App
 // extract conditional logic into small functions
 // keep jsx clean - logic outside, ui inside
 // prefer readability over compactness
+// for multiple conditions, use switch or mapping
