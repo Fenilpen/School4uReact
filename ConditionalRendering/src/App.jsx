@@ -43,3 +43,5 @@ export default App
 
 // tips
 // extract conditional logic into small functions
+// keep jsx clean - logic outside, ui inside
+// prefer readability over compactness
