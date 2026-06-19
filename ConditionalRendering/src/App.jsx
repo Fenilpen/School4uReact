@@ -40,3 +40,6 @@ export default App
 // forgetting to handle "else" case -> empty UI.
 // using == insted of === -> unexpected behaviour.
 // forgetting return null -> causes unnecessary rendering
+
+// tips
+// extract conditional logic into small functions
