@@ -3,7 +3,9 @@ import './App.css'
 
 function App() {
   return (
-
+  <button>Show popup</button>
+    
+{/* {Popup} */}
     
     {popup && (
       <div className='absolute top-0 left-0 w-screen h-screen bg-red-500'></div>
