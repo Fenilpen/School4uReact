@@ -2,6 +2,9 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
+  
+  const [popup, setPopup] = useState(false)
+  
   return (
   <button>Show popup</button>
     
