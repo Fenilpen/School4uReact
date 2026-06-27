@@ -11,7 +11,9 @@ function App() {
 {/* {Popup} */}
     
     {popup && (
-      <div className='absolute top-0 left-0 w-screen h-screen bg-red-500'></div>
+      <div className='absolute top-0 left-0 w-screen h-screen bg-red-500'>
+      <button className=''>Cancel</button>
+      </div>
     )}
   )
 
