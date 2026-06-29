@@ -15,6 +15,9 @@ function App() {
       <button onClick={()=>{
           setPopup(false)
         }} className='absolute top-[1rem] right-[1rem]'>Cancel</button>
+        <div className='w-full h-full bg-[#242424]'>
+
+      </div>
       </div>
     )}
   )
