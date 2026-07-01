@@ -19,8 +19,8 @@ function App() {
       <h1>confirm</h1>  
       <p>are you sure you want to delete this</p>
       <div>
-        <button></button>
-        <button></button>
+        <button>Yes</button>
+        <button>No</button>
       </div>
       </div>
       </div>
