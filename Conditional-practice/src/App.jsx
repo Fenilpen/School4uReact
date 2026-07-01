@@ -16,7 +16,8 @@ function App() {
           setPopup(false)
         }} className='absolute top-[1rem] right-[1rem]'>Cancel</button>
         <div className='w-full h-full max-w-[40rem] max-h-[20rem] bg-[#242424]'>
-
+      <h1>confirm</h1>  
+      <p>are you sure you want to delete this</p>
       </div>
       </div>
     )}
