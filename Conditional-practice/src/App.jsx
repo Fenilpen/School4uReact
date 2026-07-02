@@ -18,7 +18,7 @@ function App() {
         <div className='w-full h-full max-w-[40rem] max-h-[20rem] bg-[#242424]'>
       <h1>confirm</h1>  
       <p>are you sure you want to delete this</p>
-      <div>
+      <div className='flex justify-between'>
         <button>Yes</button>
         <button>No</button>
       </div>
