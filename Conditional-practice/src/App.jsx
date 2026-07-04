@@ -17,7 +17,7 @@ function App() {
         }} className='absolute top-[1rem] right-[1rem]'>Cancel</button>
         <div className='w-full h-full max-w-[40rem] max-h-[20rem] bg-[#242424] p-[5]'>
       <h1 className='text-2xl'>confirm</h1>  
-      <p className='text-lg' >are you sure you want to delete this</p>
+      <pclassName='text-lg my-5'>are you sure you want to delete this</p>
       <div className='flex justify-between'>
         <button>Yes</button>
         <button>No</button>
