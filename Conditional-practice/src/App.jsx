@@ -19,7 +19,7 @@ function App() {
       <h1 className='text-2xl'>confirm</h1>  
       <pclassName='text-lg my-5'>are you sure you want to delete this</p>
       <div className='flex gap-10'>
-        <button>Yes</button>
+        <button className='bg-[tomato] >Yes</button>
         <button>No</button>
       </div>
       </div>
