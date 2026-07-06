@@ -18,7 +18,7 @@ function App() {
         <div className='w-full h-full max-w-[40rem] max-h-[20rem] bg-[#242424] p-[5] flex items-center'>
       <h1 className='text-2xl'>confirm</h1>  
       <pclassName='text-lg my-5'>are you sure you want to delete this</p>
-      <div className='flex justify-between'>
+      <div className='flex gap-10'>
         <button>Yes</button>
         <button>No</button>
       </div>
