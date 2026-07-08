@@ -6,7 +6,9 @@ function App() {
   const [popup, setPopup] = useState(false)
   
   return (
-  <button>Show popup</button>
+  <button onClick={()=>{
+      setPopup(true)
+    }}>Show popup</button>
     
 {/* {Popup} */}
     
