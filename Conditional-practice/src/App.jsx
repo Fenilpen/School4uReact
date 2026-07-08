@@ -6,7 +6,7 @@ function App() {
   const [popup, setPopup] = useState(false)
   
   return (
-  <button onClick={()=>{
+  <button className='bg-[#242424]' onClick={()=>{
       setPopup(true)
     }}>Show popup</button>
     
