@@ -1,6 +1,8 @@
 import React from 'react'
 
 function Popup() {
+  const [popup, setPopup] = useState(false)
+  
   return (
     <div>
       {popup && (
