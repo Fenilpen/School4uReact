@@ -4,7 +4,7 @@ function Popup() {
   const [popup, setPopup] = useState(false)
   
   return (
-    <div>
+    <>
       {popup && (
       <div className='absolute top-0 left-0 w-screen h-screen bg-black/50'
       flex items-center justify-center>
@@ -25,7 +25,7 @@ function Popup() {
 
       </div>
     )}
-    </div>
+    </>
   )
 }
 
