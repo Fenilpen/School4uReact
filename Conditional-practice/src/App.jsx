@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Popup from './Popup'
 
 function App() {
   
@@ -8,8 +9,8 @@ function App() {
       setPopup(true)
     }}>Show popup</button>
     
-{/* {Popup} */}
-    
+
+    <Popup/>
     
   )
 
