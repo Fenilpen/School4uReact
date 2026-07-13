@@ -10,6 +10,13 @@ const [popup, setPopup] = useState(false)
       setPopup(true)
     }}>Show popup</button>
     <Popup popup={popup} setPopup={setPopup} />
+
+
+  <button className='bg-black' onClick={()=>{
+      setPopup(true)
+    }}>Edit</button>
+    
+    <Popup popup={popup} setPopup={setPopup}/>
     
   )
 
