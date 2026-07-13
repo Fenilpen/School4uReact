@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Popup from './Popup'
 
-function App() {
+function App({popup,setPopup}) {
 const [popup, setPopup] = useState(false)
   
   return (
