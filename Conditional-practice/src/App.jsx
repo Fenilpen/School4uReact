@@ -9,9 +9,7 @@ const [popup, setPopup] = useState(false)
   <button className='bg-black' onClick={()=>{
       setPopup(true)
     }}>Show popup</button>
-    
-
-    <Popup/>
+    <Popup popup={popup} setPopup={setPopup} />
     
   )
 
