@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Popup({popup,setPopup}) {
+function Popup({popup,setPopup,title,description}) {
   const [popup, setPopup] = useState(false)
   return (
     <>
