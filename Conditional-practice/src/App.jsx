@@ -9,7 +9,7 @@ const [popup, setPopup] = useState(false)
   <button className='bg-black' onClick={()=>{
       setPopup(true)
     }}>delete</button>
-    <Popup popup={popup} setPopup={setPopup} />
+    <Popup popup={popup} setPopup={setPopup} title={} description={} />
 
 
   <button className='bg-black' onClick={()=>{
