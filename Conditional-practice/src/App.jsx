@@ -20,8 +20,11 @@ const [popup, setPopup] = useState(false)
       setPopup(true)
     }}>edit</button>
     
-    <Popup popup={popup} setPopup={setPopup}/>
-    
+    <Popup 
+    popup={popup} 
+    setPopup={setPopup}/>
+    edit={}
+    description={}
   )
 
 }
