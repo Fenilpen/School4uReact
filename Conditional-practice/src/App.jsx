@@ -23,8 +23,8 @@ const [popup, setPopup] = useState(false)
     <Popup 
     popup={popup} 
     setPopup={setPopup}/>
-    edit={}
-    description={}
+    edit={"edit"}
+    description={"are you sure you want to edit this"}
   )
 
 }
