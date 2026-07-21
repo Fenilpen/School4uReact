@@ -4,6 +4,7 @@ import Popup from './Popup'
 
 function App() {
 const [popup, setPopup] = useState(false)
+const [editPopup,setEditPopup] = useState(false)
   
   return (
   <button className='bg-black' onClick={()=>{
