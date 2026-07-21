@@ -22,6 +22,11 @@ const [editPopup,setEditPopup] = useState(false)
     edit={"edit"}
     description={"are you sure you want to edit this"}
 
+    {/* {edit} */}
+    <button className='bg-black' onClick={()=>{
+      setPopup(true)
+    }}>Edit</button>
+
    <Popup popup={popup} 
     setPopup={setPopup} 
     title={"delete"} 
