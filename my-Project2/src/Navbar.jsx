@@ -11,6 +11,12 @@ function Navbar() {
         <a href="">Service</a>
         <a href="">Help</a>
       </div>
+
+      <div>
+        <span></span>
+        <span></span>
+      </div>
+      
     </div>
   )
 }
