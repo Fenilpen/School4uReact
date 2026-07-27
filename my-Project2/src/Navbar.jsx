@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div>
+    <div className='flex' >
       <h1>Logo</h1>
       <div>
         <a href="">home</a>
