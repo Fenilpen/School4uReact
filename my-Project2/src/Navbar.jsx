@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
   return (
     <div className='w-full bg-red-500 flex justify-between' >
-      <h1 className='text-2xl' >Logo</h1>
+      <h1 className='text-2xl font-bold' >Logo</h1>
       <div>
         <a href="">home</a>
         <a href="">About</a>
