@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className='w-full bg-red-500 flex justify-between' >
       <h1 className='text-2xl font-bold' >Logo</h1>
-      <div className='flex gap-3' >
+      <div className='flex gap-3 items-center' >
         <a href="">home</a>
         <a href="">About</a>
         <a href="">Contact</a>
