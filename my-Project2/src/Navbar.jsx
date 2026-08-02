@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='w-full bg-red-500 flex justify-between items-center px-[1rem] py-[2rem]'>
+    <div className='w-full bg-red-500 flex justify-between items-center px-[1rem] py-[2rem] bg-[lightseagreen]'>
       <h1 className='text-2xl font-bold' >Logo</h1>
       <div className='flex gap-3 items-center' >
         <a href="">home</a>
