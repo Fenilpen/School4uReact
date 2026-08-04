@@ -13,7 +13,7 @@ function Navbar() {
         <a href="">Help</a>
       </div>
 
-      <div>
+      <div className='text-2xl'>
         <span></span>
         <span></span>
       </div>
