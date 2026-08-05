@@ -13,7 +13,7 @@ function Navbar() {
         <a href="">Help</a>
       </div>
 
-      <div className='text-2xl'>
+      <div className='text-2xl flex items-center'>
         <span></span>
         <span></span>
       </div>
