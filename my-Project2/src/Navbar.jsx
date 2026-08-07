@@ -16,7 +16,7 @@ function Navbar() {
       <div className='text-2xl flex items-center gap-5'>
         <span></span>
         <span></span>
-        <span></span>
+        <span className='min-[720px]: hidden' ></span>
       </div>
       
     </div>
