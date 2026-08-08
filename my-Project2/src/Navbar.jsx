@@ -18,6 +18,15 @@ function Navbar() {
         <span></span>
         <span className='min-[720px]: hidden text-4xl'>Menu</span>
       </div>
+
+
+      <div className='flex gap-9 items-center text-lg max-[720px]:hidden'>
+        <a href="">home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <a href="">Service</a>
+        <a href="">Help</a>
+      </div>
       
     </div>
   )
