@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='w-full h-full flex justify-between items-center px-[1rem] py-[2rem] bg-[lightseagreen]'>
+    <div className='w-full flex justify-between items-center px-[1rem] py-[2rem] bg-[lightseagreen]'>
       <h1 className='text-2xl font-bold'>Logo</h1>
       
       <div className='flex gap-9 items-center text-lg max-[720px]:hidden' >
@@ -20,7 +20,7 @@ function Navbar() {
       </div>
 
 {/* Mobile view */}
-      <div className='absolute bg-[red] h-screen flex gap-9 items-center text-lg max-[720px]:hidden'>
+      <div className='absolute bg-[red] h-screen w-[20rem] flex gap-9 items-center text-lg max-[720px]:hidden'>
         <a href="">home</a>
         <a href="">About</a>
         <a href="">Contact</a>
