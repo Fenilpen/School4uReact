@@ -20,7 +20,7 @@ function Navbar() {
       </div>
 
 {/* Mobile view */}
-      <div className='absolute bg-[black] h-screen top-0 left-0 w-[20rem] flex gap-5'>
+      <div className='absolute bg-[black] h-screen top-0 left-0 w-[20rem] flex'>
         <a href="" className='bg-red-200 p-5 flex items-center justify-center' >home</a>
         <a href="">About</a>
         <a href="">Contact</a>
