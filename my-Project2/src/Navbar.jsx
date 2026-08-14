@@ -21,7 +21,7 @@ function Navbar() {
 
 {/* Mobile view */}
       <div className='absolute bg-[black] h-screen top-0 left-0 w-[20rem] flex'>
-        <a href="" className='bg-red-200 p-5 flex items-center justify-center' >home</a>
+        <a href="" className='hover bg-[black] p-5 flex items-center justify-center' >home</a>
         <a href="">About</a>
         <a href="">Contact</a>
         <a href="">Service</a>
