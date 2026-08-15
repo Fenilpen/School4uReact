@@ -28,6 +28,8 @@ function Navbar() {
         <a href="" className='hover bg-[black] p-5 flex items-center justify-center ' >home</a>
         <a href="" className='hover bg-[black] p-5 flex items-center justify-center ' >home</a>
         <a href="" className='hover bg-[black] p-5 flex items-center justify-center ' >home</a>
+        <a href="" className='hover bg-[black] p-5 flex items-center justify-center ' >home</a>
+        <a href="" className='hover bg-[black] p-5 flex items-center justify-center ' >home</a>
       </div>
       
     </div>
