@@ -25,7 +25,9 @@ function Navbar() {
           setPopup(false)
         }} className='bg-[#242424] absolute top-[1rem] right-[1rem]'>Cancel</button>
         <a href="" className='hover bg-[black] p-5 flex items-center justify-center' >home</a>
-        
+        <a href="" className='hover bg-[black] p-5 flex items-center justify-center ' >home</a>
+        <a href="" className='hover bg-[black] p-5 flex items-center justify-center ' >home</a>
+        <a href="" className='hover bg-[black] p-5 flex items-center justify-center ' >home</a>
       </div>
       
     </div>
