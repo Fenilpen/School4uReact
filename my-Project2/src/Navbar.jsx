@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Navbar() {
+  const [mobileview ,setMobileview] = useState(false)
   return (
     <div className='w-full flex justify-between items-center px-[1rem] py-[2rem] bg-[lightseagreen]'>
       <h1 className='text-2xl font-bold'>Logo</h1>
