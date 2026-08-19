@@ -17,7 +17,9 @@ function Navbar() {
       <div className='text-2xl flex items-center gap-5'>
         <span></span>
         <span></span>
-        <span onClick={()=>{}} className='min-[720px]: hidden text-4xl'>Menu</span>
+        <span onClick={()=>{
+          setMobileview(true)
+        }} className='min-[720px]: hidden text-4xl'>Menu</span>
       </div>
 
 {/* Mobile view */}
