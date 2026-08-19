@@ -26,7 +26,7 @@ function Navbar() {
       <div className='absolute bg-[black] h-screen top-0 left-0 w-[20rem] flex '>
         <button 
         onClick={()=>{
-          
+          setMobileview(false)
         }}
         className='bg-[#242424] absolute top-[1rem] right-[1rem] p-3 rounded-2xl'>Cancel</button>
         <a href="" className='mt-[5rem] hover bg-[black] p-5 flex items-center justify-center' >home</a>
