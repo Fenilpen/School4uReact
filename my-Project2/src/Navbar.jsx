@@ -1,4 +1,6 @@
 import React from 'react'
+import { useState } from 'react'
+
 
 function Navbar() {
   const [mobileview ,setMobileview] = useState(false)
