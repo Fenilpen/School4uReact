@@ -25,7 +25,7 @@ function Navbar() {
       </div>
 
 {/* Mobile view */}
-      <div className='absolute bg-[black] h-screen top-0 left-0 w-[20rem] flex flex-col translate-x-[100%]'>
+      <div className={`absolute bg-[black] h-screen top-0 left-0 w-[20rem] flex flex-col translate-x-[100%]`}'>
         <button 
         onClick={()=>{
           setMobileview(mobileview)
