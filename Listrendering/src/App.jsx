@@ -4,7 +4,10 @@ import './App.css'
 function App() {
   const arr = ["one","two","three"]
 
-  {arr.map()}
+  <h1>List rendering</h1>
+  {arr.map(function(item,index){
+
+    })}
   return (
     <>
     </>
