@@ -6,7 +6,7 @@ function App() {
 
   <h1>List rendering</h1>
   {arr.map(function(item,index){
-
+  <h1>{item}</h1>
     })}
   return (
     <>
