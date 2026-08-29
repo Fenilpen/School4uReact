@@ -15,3 +15,6 @@ function App() {
 }
 
 export default App
+
+// why we use .map() in react
+// react works with immutable ui updates and map() creates a new array without modifying the original
