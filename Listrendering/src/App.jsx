@@ -22,3 +22,4 @@ export default App
 
 // (A) Normal Array
 // const fruits = ["one","two","three"];
+// <ul> {fruits.map((name,i)=> <li key={i}>{name}</li>)}  </ul>
