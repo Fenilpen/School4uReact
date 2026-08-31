@@ -21,3 +21,4 @@ export default App
 // jsx can embed javascript expressions inside {}, so we can diractly use array.map() in our jsx return
 
 // (A) Normal Array
+// const fruits = ["one","two","three"];
