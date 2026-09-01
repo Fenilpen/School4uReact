@@ -25,11 +25,11 @@ export default App
 // <ul> {fruits.map((name,i)=> <li key={i}>{name}</li>)}  </ul>
 
 // (B) Array of objects
-//  <ul>
-//  {users.map( user => (
-//    <li key={user.id}>
-//      {user.name} - {user.age} years old
-//    </li>
-//  ))}
-// </ul>
+ <ul>
+ {users.map( user => (
+   <li key={user.id}>
+     {user.name} - {user.age} years old
+   </li>
+ ))}
+</ul>
 
