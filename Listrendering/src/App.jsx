@@ -25,6 +25,13 @@ export default App
 // <ul> {fruits.map((name,i)=> <li key={i}>{name}</li>)}  </ul>
 
 // (B) Array of objects
+
+// const users  = {
+   // {id: 1, name: "one",age :21}
+   // {id: 1, name: "two",age :22}
+   // {id: 1, name: "three",age :23}
+//}
+
 //  <ul>
 //  {users.map( user => (
 //    <li key={user.id}>
