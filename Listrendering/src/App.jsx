@@ -4,6 +4,12 @@ import './App.css'
 function App() {
   // const arr = ["one","two","three"]
 
+  const arr = [
+    {id: 1, name: "one",age :21},
+    {id: 2, name: "two",age :22},
+    {id: 3, name: "three",age :23}
+  ]
+
   <h1>List rendering</h1>
   {arr.map(function(item,index){
   return <h1 key={item} >{item}</h1>
