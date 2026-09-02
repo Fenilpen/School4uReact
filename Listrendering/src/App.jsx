@@ -11,9 +11,9 @@ function App() {
   ]
 
   <h1>List rendering</h1>
-  {arr.map(function(item,index){
-  return <h1 key={item} >{item}</h1>
-    })}
+  // {arr.map(function(item,index){
+  // return <h1 key={item} >{item}</h1>
+  //   })}
   return (
     <>
     </>
