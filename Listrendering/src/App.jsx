@@ -16,7 +16,7 @@ function App() {
   //   })}
 
   {
-      arr.map(()=>{
+      arr.map((user)=>{
         return (
           <div></div>
         )
