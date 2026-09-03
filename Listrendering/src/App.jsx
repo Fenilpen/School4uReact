@@ -20,6 +20,8 @@ function App() {
         return (
           <div>
           <p>{user.id}</p>
+          <h1>{user.name}</h1>
+          <p>{user.age}</p>
           </div>
         )
       })
