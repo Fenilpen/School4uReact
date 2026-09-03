@@ -18,7 +18,9 @@ function App() {
   {
       arr.map((user)=>{
         return (
-          <div></div>
+          <div>
+          <p>{user.id}</p>
+          </div>
         )
       })
   }
