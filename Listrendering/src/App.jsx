@@ -17,7 +17,9 @@ function App() {
 
   {
       arr.map(()=>{
-        
+        return (
+          <div></div>
+        )
       })
   }
   
