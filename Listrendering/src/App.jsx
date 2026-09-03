@@ -14,6 +14,13 @@ function App() {
   // {arr.map(function(item,index){
   // return <h1 key={item} >{item}</h1>
   //   })}
+
+  {
+      arr.map(()=>{
+        
+      })
+  }
+  
   return (
     <>
     </>
