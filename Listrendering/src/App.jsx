@@ -7,7 +7,8 @@ function App() {
   const arr = [
     {id: 1, name: "one",age :21},
     {id: 2, name: "two",age :22},
-    {id: 3, name: "three",age :23}
+    {id: 3, name: "three",age :23},
+    {id: 4, name: "four",age :24}
   ]
 
   <h1>List rendering</h1>
