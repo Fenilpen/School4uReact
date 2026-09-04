@@ -18,7 +18,7 @@ function App() {
   {
       arr.map((user)=>{
         return (
-          <div className='bg-[lightseagreen]'>
+          <div className='bg-[lightseagreen] mt-5'>
           <p>{user.id}</p>
           <h1>{user.name}</h1>
           <p>{user.age}</p>
