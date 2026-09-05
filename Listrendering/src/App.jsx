@@ -12,6 +12,7 @@ function App() {
   ]
 
   <h1>List rendering</h1>
+  //  Normal Array
   // {arr.map(function(item,index){
   // return <h1 key={item} >{item}</h1>
   //   })}
