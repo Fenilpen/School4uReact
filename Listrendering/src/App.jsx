@@ -17,6 +17,7 @@ function App() {
   // return <h1 key={item} >{item}</h1>
   //   })}
 
+  // Array of objects
   // {
   //     arr.map((user)=>{
   //       return (
