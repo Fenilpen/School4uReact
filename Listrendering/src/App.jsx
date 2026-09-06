@@ -12,7 +12,8 @@ function App() {
   // ]
 
   const arr = [
-    ["html","css","react","javascript"]
+    ["html","css","react","javascript"],
+    ["mongoDB","node js","express js","aws"]
   ]
 
   <h1>List rendering</h1>
