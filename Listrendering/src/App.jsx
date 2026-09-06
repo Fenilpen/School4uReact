@@ -11,6 +11,10 @@ function App() {
   //   {id: 4, name: "four",age :24}
   // ]
 
+  const arr = [
+    ["html","css","react","javascript"]
+  ]
+
   <h1>List rendering</h1>
   //  Normal Array
   // {arr.map(function(item,index){
