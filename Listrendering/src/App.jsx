@@ -15,7 +15,8 @@ function App() {
     ["html","css","react","javascript"],
     ["mongoDB","node js","express js","aws"]
   ]
-
+    return (
+    <>
   <h1>List rendering</h1>
   //  Normal Array
   // {arr.map(function(item,index){
@@ -35,8 +36,7 @@ function App() {
   //     })
   // }
   
-  return (
-    <>
+  
     </>
   )
 }
