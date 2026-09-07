@@ -36,7 +36,7 @@ function App() {
   //     })
   // }
 
-  {arr.map(()=>{
+  {arr.map((item)=>{
     
   })}
   
