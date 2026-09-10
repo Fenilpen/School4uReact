@@ -41,7 +41,7 @@ function App() {
           <div>
             {item.map((nestedItem)=>{
             return (
-              <h1></h1>
+              <h1>{nestedItem}</h1>
               )
             }}
           </div>
