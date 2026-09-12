@@ -36,7 +36,7 @@ function App() {
   //     })
   // }
 
-  {arr.map((item)=>{
+  {arr.map((item,index)=>{
     return (
           <div key={item}>
             {item.map((nestedItem)=>{
