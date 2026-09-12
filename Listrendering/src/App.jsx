@@ -38,7 +38,7 @@ function App() {
 
   {arr.map((item,index)=>{
     return (
-          <div key={item}>
+          <div key={index}>
             {item.map((nestedItem)=>{
             return (
               <h1 key={nestedItem}>{nestedItem}</h1>
