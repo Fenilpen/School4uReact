@@ -46,6 +46,9 @@ function App() {
             }}
           </div>
         )
+
+    {arr.map(()=>{})}
+    
   })}
   
     </>
