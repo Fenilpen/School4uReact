@@ -47,7 +47,9 @@ function App() {
           </div>
         )
 
-    {arr.map(()=>{})}
+    {arr.map((user)=>{
+      return()
+    })}
     
   })}
   
