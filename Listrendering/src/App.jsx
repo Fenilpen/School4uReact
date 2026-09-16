@@ -49,7 +49,7 @@ function App() {
 
     {arr.map((user)=>{
       return(
-        <div key={user}>
+        <div key={user.id}>
 
          </div>
       )
