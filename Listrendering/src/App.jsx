@@ -50,9 +50,7 @@ function App() {
 
     {arr.map((user)=>{
       return(
-        <div>
           <Usercard key={user.id} userDetails={user} />
-         </div>
       )
     })}
     
