@@ -47,14 +47,15 @@ function App() {
             }}
           </div>
         )
+  })}
 
     {arr.map((user)=>{
       return(
+        user.age > 18 && 
           <Usercard key={user.id} userDetails={user} />
       )
     })}
     
-  })}
   
     </>
   )
