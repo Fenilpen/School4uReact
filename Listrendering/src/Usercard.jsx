@@ -1,4 +1,5 @@
 import React from 'react'
+import Usercard from './Usercard'
 
 const Usercard = ({userDetails}) => {
   return (
