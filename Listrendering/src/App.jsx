@@ -87,3 +87,7 @@ export default App
 //  ))}
 // </ul>
 
+
+// common mistakes
+
+// forgeting return when curly braces in function
