@@ -91,3 +91,5 @@ export default App
 // common mistakes
 
 // forgeting return when curly braces in function
+// not using key prop
+// mutating the original array before mapping
