@@ -93,3 +93,4 @@ export default App
 // forgeting return when curly braces in function
 // not using key prop
 // mutating the original array before mapping
+// returning multiple root elements inside .map() without wrapping <></>
