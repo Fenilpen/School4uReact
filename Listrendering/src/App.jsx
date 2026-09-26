@@ -91,6 +91,10 @@ export default App
 // common mistakes
 
 // forgeting return when curly braces in function
+
+// wrong
+// {items.map(item => {<li>{item}</li>})}
+  
 // not using key prop
 // mutating the original array before mapping
 // returning multiple root elements inside .map() without wrapping <></>
