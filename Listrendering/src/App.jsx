@@ -96,7 +96,9 @@ export default App
 // {items.map(item => {<li>{item}</li>})}
 // correct
 // {items.map(item => <li>{item}</li>)}
-  
+// or
+// {items.map(item => {return <li>{item}</li>})}
+
 // not using key prop
 // mutating the original array before mapping
 // returning multiple root elements inside .map() without wrapping <></>
