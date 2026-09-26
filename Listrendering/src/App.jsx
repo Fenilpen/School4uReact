@@ -94,6 +94,8 @@ export default App
 
 // wrong
 // {items.map(item => {<li>{item}</li>})}
+// correct
+// {items.map(item => <li>{item}</li>)}
   
 // not using key prop
 // mutating the original array before mapping
