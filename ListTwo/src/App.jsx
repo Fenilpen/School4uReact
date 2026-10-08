@@ -7,6 +7,7 @@ function App() {
   return (
     <>
     <div className='h-screen w-full bg-red-500'>
+      {data.map()}
       <div>
       </div>
     </div>
