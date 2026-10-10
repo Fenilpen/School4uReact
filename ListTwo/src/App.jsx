@@ -8,7 +8,9 @@ function App() {
     <>
     <div className='h-screen w-full bg-red-500'>
       {data.map(function(phoneDetails){
-
+        return {
+          
+        }
       })}
     </div>
     </>
