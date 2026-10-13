@@ -10,6 +10,8 @@ function App() {
       {data.map(function(phoneDetails){
         return {
           <div>hello</div>
+          <div>hello</div>
+          <div>hello</div>
         }
       })}
     </div>
