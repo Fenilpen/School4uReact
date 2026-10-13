@@ -10,8 +10,11 @@ function App() {
       {data.map(function(phoneDetails){
         return {
           <>
+          {/* Image */}
           <div>hello</div>
+          {/* details */}
           <div>hello</div>
+          {/* pricing */}
           <div>hello</div>
           </>
         }
