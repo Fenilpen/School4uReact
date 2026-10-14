@@ -11,7 +11,7 @@ function App() {
         return {
           <>
           {/* Image */}
-          <img src="" alt=""  />
+          <img src={phoneDetails.image}  />
           {/* details */}
           <div>hello</div>
           {/* pricing */}
