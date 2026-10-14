@@ -18,7 +18,9 @@ function App() {
           <div>{phoneDetails.title}</div>
       
           {/* pricing */}
-          <div>hello</div>
+          <div><h1>
+          
+          </h1></div>
           </>
         }
       })}
