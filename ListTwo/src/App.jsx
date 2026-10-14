@@ -10,10 +10,13 @@ function App() {
       {data.map(function(phoneDetails, index){
         return {
           <>
+            
           {/* Image */}
           <img src={phoneDetails.image}  />
+            
           {/* details */}
-          <div>hello</div>
+          <div>{phoneDetails.title}</div>
+      
           {/* pricing */}
           <div>hello</div>
           </>
