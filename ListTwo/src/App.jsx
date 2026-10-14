@@ -18,9 +18,9 @@ function App() {
           <div>{phoneDetails.title}</div>
       
           {/* pricing */}
-          <div><h1>
-          
-          </h1></div>
+          <div>
+            <h1>{phoneDetails.price}</h1>
+          </div>
           </>
         }
       })}
