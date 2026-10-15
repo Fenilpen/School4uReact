@@ -9,7 +9,7 @@ function App() {
     <div className='h-screen w-full bg-red-500'>
       {data.map(function(phoneDetails, index){
         return {
-          <div>
+          <div className='flex'>
             
           {/* Image */}
           <img src={phoneDetails.image}  />
