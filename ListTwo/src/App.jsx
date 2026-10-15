@@ -12,7 +12,9 @@ function App() {
           <div className='flex'>
             
           {/* Image */}
+          <div>
           <img src={phoneDetails.image}  />
+          </div>
             
           {/* details */}
           <div>{phoneDetails.title}</div>
