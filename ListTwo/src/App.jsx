@@ -17,7 +17,11 @@ function App() {
           </div>
             
           {/* details */}
-          <div>{phoneDetails.title}</div>
+          <div>
+           <h1>
+            {phoneDetails.title}
+           </h1> 
+          </div>
       
           {/* pricing */}
           <div>
