@@ -17,7 +17,7 @@ function App() {
           </div>
             
           {/* details */}
-          <div>
+          <div className='flex-1' >
            <h1>
             {phoneDetails.title}
            </h1> 
