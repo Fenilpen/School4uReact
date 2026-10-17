@@ -12,7 +12,7 @@ function App() {
           <div className='flex'>
             
           {/* Image */}
-          <div className='w-1/4' >
+          <div className='w-1/4 bg-red-500'>
           <img src={phoneDetails.image}  />
           </div>
             
