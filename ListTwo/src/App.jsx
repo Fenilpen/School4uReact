@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <div className=''>
+    <div className='w-full flex flex-col'>
       {data.map(function(phoneDetails, index){
         return {
           <div className='flex'>
