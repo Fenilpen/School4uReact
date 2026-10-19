@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <div className='w-full flex flex-col gap-5'>
+    <div className='p-6 w-full flex flex-col gap-5'>
       {data.map(function(phoneDetails, index){
         return {
           <div className='flex'>
