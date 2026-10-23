@@ -9,7 +9,7 @@ function App() {
     <div className='p-6 w-full flex flex-col gap-5'>
       {data.map(function(phoneDetails, index){
         return {
-          <div className='flex'>
+          <div className='flex bg-[#282828]'>
             
           {/* Image */}
           <div className='w-1/4 flex item-center justify-center'>
