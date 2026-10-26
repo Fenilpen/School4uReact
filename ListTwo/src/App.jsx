@@ -22,6 +22,7 @@ function App() {
             {phoneDetails.title}
            </h1> 
           <p>{phoneDetails.rating} | {phoneDetails.reviews} </p>
+            {}
           </div>
       
           {/* pricing */}
