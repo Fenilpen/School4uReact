@@ -21,7 +21,7 @@ function App() {
            <h1>
             {phoneDetails.title}
            </h1> 
-          <p>{phoneDetails.rating} | | </p>
+          <p>{phoneDetails.rating} | {phoneDetails.reviews} </p>
           </div>
       
           {/* pricing */}
