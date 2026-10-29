@@ -24,7 +24,7 @@ function App() {
           <p>{phoneDetails.rating} | {phoneDetails.reviews} </p>
             <ul>
             {phoneDetails.details.map(function(index,item){
-            return <li>{item}</li>
+            return <li className='list-disc' >{item}</li>
             })
             </ul>
           </div>
