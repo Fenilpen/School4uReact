@@ -22,9 +22,11 @@ function App() {
             {phoneDetails.title}
            </h1> 
           <p>{phoneDetails.rating} | {phoneDetails.reviews} </p>
+            <ul>
             {phoneDetails.details.map(function(index,item){
             return <li>{item}</li>
             })
+            </ul>
           </div>
       
           {/* pricing */}
