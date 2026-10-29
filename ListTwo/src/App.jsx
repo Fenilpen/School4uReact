@@ -23,7 +23,7 @@ function App() {
            </h1> 
           <p>{phoneDetails.rating} | {phoneDetails.reviews} </p>
             {phoneDetails.details.map(function(index,item){
-            return <p>{item}</p>
+            return <li>{item}</li>
             })
           </div>
       
