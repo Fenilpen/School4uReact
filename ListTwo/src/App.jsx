@@ -22,7 +22,7 @@ function App() {
             {phoneDetails.title}
            </h1> 
           <p>{phoneDetails.rating} | {phoneDetails.reviews} </p>
-            <ul>
+            <ul className='my-3'>
             {phoneDetails.details.map(function(index,item){
             return <li className='list-disc ml-6'>{item}</li>
             })
