@@ -38,7 +38,7 @@ function App() {
       })}
     </ul>
      <p>{phoneDetails.offers.exchangeOffer}</p>
-     <p>{}</p>
+     <p>{{phoneDetails.offers.bankOffer}}</p>
     </div>
     </>
   )
