@@ -38,6 +38,7 @@ function App() {
       })}
     </ul>
      <p>{phoneDetails.offers.exchangeOffer}</p>
+     <p>{}</p>
     </div>
     </>
   )
