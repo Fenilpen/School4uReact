@@ -37,7 +37,7 @@ function App() {
         }
       })}
     </ul>
-     <p>{phoneDetails.offers.exchangeOffer}</p>
+     <p className='text-green-500' >{phoneDetails.offers.exchangeOffer}</p>
      <p>{{phoneDetails.offers.bankOffer}}</p>
     </div>
     </>
