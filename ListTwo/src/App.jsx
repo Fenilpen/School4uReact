@@ -32,6 +32,7 @@ function App() {
           {/* pricing */}
           <div>
             <h1>{phoneDetails.price}</h1>
+            <p></p>
           </div>
           </div>
         }
