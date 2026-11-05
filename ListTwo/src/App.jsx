@@ -32,7 +32,7 @@ function App() {
           {/* pricing */}
           <div>
             <h1>{phoneDetails.price}</h1>
-            <p></p>
+            <p>{phoneDetails.originalPrice}</p>
           </div>
           </div>
         }
