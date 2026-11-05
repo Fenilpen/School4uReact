@@ -31,7 +31,7 @@ function App() {
       
           {/* pricing */}
           <div>
-            <h1>{phoneDetails.price}</h1>
+            <h1 className='2xl'>{phoneDetails.price}</h1>
             <p className='line-through'>{phoneDetails.originalPrice}</p>
           </div>
           </div>
