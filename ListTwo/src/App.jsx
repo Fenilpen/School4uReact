@@ -32,7 +32,7 @@ function App() {
           {/* pricing */}
           <div>
             <h1>{phoneDetails.price}</h1>
-            <p>{phoneDetails.originalPrice}</p>
+            <p className='line-through'>{phoneDetails.originalPrice}</p>
           </div>
           </div>
         }
