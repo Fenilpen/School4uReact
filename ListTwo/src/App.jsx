@@ -33,7 +33,7 @@ function App() {
           <div className='flex flex-col items-end'>
             <h1 className='2xl'>{phoneDetails.price}</h1>
             <p className='line-through'>{phoneDetails.originalPrice}</p>
-            <p className=''>{phoneDetails.discount}</p>
+            <p className='text-green-500'>{phoneDetails.discount}</p>
           </div>
           </div>
         }
