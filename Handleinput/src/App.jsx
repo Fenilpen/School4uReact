@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <input type="text" placeholder='enter name' />
+      <input type="text" placeholder='enter name' onChange={}/>
     </>
   )
 }
