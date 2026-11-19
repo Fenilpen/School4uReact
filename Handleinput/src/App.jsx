@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <input type="text" placeholder='enter name' onChange={ (e)=>{
-      
+      setState(e.target.value)
       } }/>
     </>
   )
