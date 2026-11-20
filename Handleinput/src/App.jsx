@@ -9,6 +9,8 @@ function App() {
       <input type="text" placeholder='enter name' onChange={ (e)=>{
       setState(e.target.value)
       } }/>
+
+   <h1>{State}</h1>
     </>
   )
 }
