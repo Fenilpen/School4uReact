@@ -9,7 +9,7 @@ function App() {
       <input type="text" placeholder='enter name' onChange={ (e)=>{
       setState(e.target.value)
       } }/>
-  <button onClick={setState("")}>Clear</button>
+  <button onClick={()=>setState("")}>Clear</button>
    <h1>{State}</h1>
     </>
   )
