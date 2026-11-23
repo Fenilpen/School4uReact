@@ -11,6 +11,7 @@ function App() {
       } }/>
 
       <br />
+      <br />
       
   <button onClick={()=>setState("")}>Clear</button>
    <h1>{State}</h1>
