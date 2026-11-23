@@ -20,3 +20,6 @@ function App() {
 }
 
 export default App
+
+//value => connected to state
+// onchange => uodates state
