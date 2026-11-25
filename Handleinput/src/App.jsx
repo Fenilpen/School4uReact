@@ -24,3 +24,6 @@ export default App
 //value => connected to state
 // onchange => uodates state
 // without onChange the input becomes read-only
+
+// what is controlled components?
+// a controlled component is a form whose input field value is controlled by react's state
