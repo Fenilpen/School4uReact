@@ -27,3 +27,7 @@ export default App
 
 // what is controlled components?
 // a controlled component is a form whose input field value is controlled by react's state
+// working
+// store input field value in state
+// use onChange handler with input field
+// value attribute attached with state
