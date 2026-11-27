@@ -31,3 +31,6 @@ export default App
 // store input field value in state
 // use onChange handler with input field
 // value attribute attached with state
+
+//uncontrolled components
+// sometimes we dont bind the input -- we directly access it via ref
